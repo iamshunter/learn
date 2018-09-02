@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2013.4 (64-bit)
+# SW Build 353583 on Mon Dec  9 17:26:26 MST 2013
+# IP Build 208076 on Mon Dec  2 12:38:17 MST 2013
+# Start of session at: Sat Sep  1 10:36:20 2018
+# Process ID: 27150
+# Log file: /home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.runs/synth_1/design_1_wrapper.rds
+# Journal file: /home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source design_1_wrapper.tcl
