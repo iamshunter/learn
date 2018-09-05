@@ -1,7 +1,7 @@
 Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------
 | Tool Version : Vivado v.2013.4 (lin64) Build 353583 Mon Dec  9 17:26:26 MST 2013
-| Date         : Sat Sep  1 10:37:09 2018
+| Date         : Tue Sep  4 14:17:37 2018
 | Host         : USBCentOS running 64-bit CentOS Linux release 7.5.1804 (Core)
 | Command      : report_io -file design_1_wrapper_io_placed.rpt
 | Design       : design_1_wrapper
@@ -22,7 +22,7 @@ Table of Contents
 +---------------+
 | Total User IO |
 +---------------+
-|           136 |
+|           138 |
 +---------------+
 
 
@@ -247,8 +247,8 @@ Table of Contents
 | L13        |                     |           | VCCINT                  |           |                   |                |            |           |             |           |         |            |                        |                  |
 | L14        |                     | IOB33M    | IO_L22P_T3_AD7P_35      | UNUSED    |                   |             35 |            |           |             |           |         |            |                        |                  |
 | L15        |                     | IOB33S    | IO_L22N_T3_AD7N_35      | UNUSED    |                   |             35 |            |           |             |           |         |            |                        |                  |
-| L16        |                     | IOB33M    | IO_L11P_T1_SRCC_35      | UNUSED    |                   |             35 |            |           |             |           |         |            |                        |                  |
-| L17        |                     | IOB33S    | IO_L11N_T1_SRCC_35      | UNUSED    |                   |             35 |            |           |             |           |         |            |                        |                  |
+| L16        | emio_user_tri_io[7] | IOB33M    | IO_L11P_T1_SRCC_35      | BIDIR     | LVCMOS18*         |             35 |         12 |      SLOW |             |           |         | FIXED      | NONE                   | NONE             |
+| L17        | emio_user_tri_io[6] | IOB33S    | IO_L11N_T1_SRCC_35      | BIDIR     | LVCMOS18*         |             35 |         12 |      SLOW |             |           |         | FIXED      | NONE                   | NONE             |
 | L18        |                     |           | GND                     |           |                   |                |            |           |             |           |         |            |                        |                  |
 | L19        |                     | IOB33M    | IO_L9P_T1_DQS_AD3P_35   | UNUSED    |                   |             35 |            |           |             |           |         |            |                        |                  |
 | L20        |                     | IOB33S    | IO_L9N_T1_DQS_AD3N_35   | UNUSED    |                   |             35 |            |           |             |           |         |            |                        |                  |

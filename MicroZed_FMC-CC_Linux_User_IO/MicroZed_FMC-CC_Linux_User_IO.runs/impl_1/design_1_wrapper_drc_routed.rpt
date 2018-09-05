@@ -1,7 +1,7 @@
 Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------
 | Tool Version : Vivado v.2013.4 (lin64) Build 353583 Mon Dec  9 17:26:26 MST 2013
-| Date         : Sat Sep  1 10:37:17 2018
+| Date         : Tue Sep  4 14:17:46 2018
 | Host         : USBCentOS running 64-bit CentOS Linux release 7.5.1804 (Core)
 | Command      : report_drc
 -----------------------------------------------------------------------------------
@@ -898,7 +898,7 @@ Related violations: <none>
 
 XDCM-1#22 Warning
 Delay constraint missing on IO port  
-The port 'emio_user_tri_io[0], emio_user_tri_io[1], emio_user_tri_io[2], emio_user_tri_io[3], emio_user_tri_io[4], emio_user_tri_io[5]' does not have any I/O delay defined. It is necessary to have I/O (input or output) delays defined on all the ports to properly time the FPGA interface.
+The port 'emio_user_tri_io[0], emio_user_tri_io[1], emio_user_tri_io[2], emio_user_tri_io[3], emio_user_tri_io[4], emio_user_tri_io[5], emio_user_tri_io[6], emio_user_tri_io[7]' does not have any I/O delay defined. It is necessary to have I/O (input or output) delays defined on all the ports to properly time the FPGA interface.
 Related violations: <none>
 
 RTSTAT-10#1 Advisory

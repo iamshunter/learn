@@ -44,7 +44,7 @@ module design_1_wrapper
   inout FIXED_IO_ps_clk;
   inout FIXED_IO_ps_porb;
   inout FIXED_IO_ps_srstb;
-  inout [5:0]emio_user_tri_io;
+  inout [7:0]emio_user_tri_io;
 
   wire [14:0]DDR_addr;
   wire [2:0]DDR_ba;
@@ -73,24 +73,32 @@ module design_1_wrapper
   wire [3:3]emio_user_tri_i_3;
   wire [4:4]emio_user_tri_i_4;
   wire [5:5]emio_user_tri_i_5;
+  wire [6:6]emio_user_tri_i_6;
+  wire [7:7]emio_user_tri_i_7;
   wire [0:0]emio_user_tri_io_0;
   wire [1:1]emio_user_tri_io_1;
   wire [2:2]emio_user_tri_io_2;
   wire [3:3]emio_user_tri_io_3;
   wire [4:4]emio_user_tri_io_4;
   wire [5:5]emio_user_tri_io_5;
+  wire [6:6]emio_user_tri_io_6;
+  wire [7:7]emio_user_tri_io_7;
   wire [0:0]emio_user_tri_o_0;
   wire [1:1]emio_user_tri_o_1;
   wire [2:2]emio_user_tri_o_2;
   wire [3:3]emio_user_tri_o_3;
   wire [4:4]emio_user_tri_o_4;
   wire [5:5]emio_user_tri_o_5;
+  wire [6:6]emio_user_tri_o_6;
+  wire [7:7]emio_user_tri_o_7;
   wire [0:0]emio_user_tri_t_0;
   wire [1:1]emio_user_tri_t_1;
   wire [2:2]emio_user_tri_t_2;
   wire [3:3]emio_user_tri_t_3;
   wire [4:4]emio_user_tri_t_4;
   wire [5:5]emio_user_tri_t_5;
+  wire [6:6]emio_user_tri_t_6;
+  wire [7:7]emio_user_tri_t_7;
 
 design_1 design_1_i
        (.DDR_addr(DDR_addr),
@@ -114,9 +122,9 @@ design_1 design_1_i
         .FIXED_IO_ps_clk(FIXED_IO_ps_clk),
         .FIXED_IO_ps_porb(FIXED_IO_ps_porb),
         .FIXED_IO_ps_srstb(FIXED_IO_ps_srstb),
-        .emio_user_tri_i({emio_user_tri_i_5,emio_user_tri_i_4,emio_user_tri_i_3,emio_user_tri_i_2,emio_user_tri_i_1,emio_user_tri_i_0}),
-        .emio_user_tri_o({emio_user_tri_o_5,emio_user_tri_o_4,emio_user_tri_o_3,emio_user_tri_o_2,emio_user_tri_o_1,emio_user_tri_o_0}),
-        .emio_user_tri_t({emio_user_tri_t_5,emio_user_tri_t_4,emio_user_tri_t_3,emio_user_tri_t_2,emio_user_tri_t_1,emio_user_tri_t_0}));
+        .emio_user_tri_i({emio_user_tri_i_7,emio_user_tri_i_6,emio_user_tri_i_5,emio_user_tri_i_4,emio_user_tri_i_3,emio_user_tri_i_2,emio_user_tri_i_1,emio_user_tri_i_0}),
+        .emio_user_tri_o({emio_user_tri_o_7,emio_user_tri_o_6,emio_user_tri_o_5,emio_user_tri_o_4,emio_user_tri_o_3,emio_user_tri_o_2,emio_user_tri_o_1,emio_user_tri_o_0}),
+        .emio_user_tri_t({emio_user_tri_t_7,emio_user_tri_t_6,emio_user_tri_t_5,emio_user_tri_t_4,emio_user_tri_t_3,emio_user_tri_t_2,emio_user_tri_t_1,emio_user_tri_t_0}));
 IOBUF emio_user_tri_iobuf_0
        (.I(emio_user_tri_o_0),
         .IO(emio_user_tri_io[0]),
@@ -147,4 +155,14 @@ IOBUF emio_user_tri_iobuf_5
         .IO(emio_user_tri_io[5]),
         .O(emio_user_tri_i_5),
         .T(emio_user_tri_t_5));
+IOBUF emio_user_tri_iobuf_6
+       (.I(emio_user_tri_o_6),
+        .IO(emio_user_tri_io[6]),
+        .O(emio_user_tri_i_6),
+        .T(emio_user_tri_t_6));
+IOBUF emio_user_tri_iobuf_7
+       (.I(emio_user_tri_o_7),
+        .IO(emio_user_tri_io[7]),
+        .O(emio_user_tri_i_7),
+        .T(emio_user_tri_t_7));
 endmodule

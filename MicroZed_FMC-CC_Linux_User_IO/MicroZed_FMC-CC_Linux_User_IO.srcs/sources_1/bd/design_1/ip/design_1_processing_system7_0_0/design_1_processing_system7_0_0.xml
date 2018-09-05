@@ -9558,7 +9558,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>customizationCRC</spirit:name>
-            <spirit:value>2973572459</spirit:value>
+            <spirit:value>1193518789</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>customizationCRCversion</spirit:name>
@@ -9566,7 +9566,7 @@
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Sat Sep 01 17:36:19 UTC 2018</spirit:value>
+            <spirit:value>Tue Sep 04 21:02:21 UTC 2018</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>StaleAtRelink</spirit:name>
@@ -10741,7 +10741,7 @@
         <spirit:wire>
           <spirit:direction>in</spirit:direction>
           <spirit:vector>
-            <spirit:left spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(MODELPARAM_VALUE.C_EMIO_GPIO_WIDTH)) - 1)" spirit:bitStringLength="0">5</spirit:left>
+            <spirit:left spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(MODELPARAM_VALUE.C_EMIO_GPIO_WIDTH)) - 1)" spirit:bitStringLength="0">7</spirit:left>
             <spirit:right spirit:bitStringLength="0">0</spirit:right>
           </spirit:vector>
           <spirit:wireTypeDefs>
@@ -10768,7 +10768,7 @@
         <spirit:wire>
           <spirit:direction>out</spirit:direction>
           <spirit:vector>
-            <spirit:left spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(MODELPARAM_VALUE.C_EMIO_GPIO_WIDTH)) - 1)" spirit:bitStringLength="0">5</spirit:left>
+            <spirit:left spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(MODELPARAM_VALUE.C_EMIO_GPIO_WIDTH)) - 1)" spirit:bitStringLength="0">7</spirit:left>
             <spirit:right spirit:bitStringLength="0">0</spirit:right>
           </spirit:vector>
           <spirit:wireTypeDefs>
@@ -10792,7 +10792,7 @@
         <spirit:wire>
           <spirit:direction>out</spirit:direction>
           <spirit:vector>
-            <spirit:left spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(MODELPARAM_VALUE.C_EMIO_GPIO_WIDTH)) - 1)" spirit:bitStringLength="0">5</spirit:left>
+            <spirit:left spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(MODELPARAM_VALUE.C_EMIO_GPIO_WIDTH)) - 1)" spirit:bitStringLength="0">7</spirit:left>
             <spirit:right spirit:bitStringLength="0">0</spirit:right>
           </spirit:vector>
           <spirit:wireTypeDefs>
@@ -24976,7 +24976,7 @@
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="INTEGER">
         <spirit:name>C_EMIO_GPIO_WIDTH</spirit:name>
-        <spirit:value spirit:format="long" spirit:resolve="dependent" spirit:id="MODELPARAM_VALUE.C_EMIO_GPIO_WIDTH" spirit:dependency="spirit:decode(id(PARAM_VALUE.PCW_GPIO_EMIO_GPIO_WIDTH))">6</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="dependent" spirit:id="MODELPARAM_VALUE.C_EMIO_GPIO_WIDTH" spirit:dependency="spirit:decode(id(PARAM_VALUE.PCW_GPIO_EMIO_GPIO_WIDTH))">8</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="INTEGER">
         <spirit:name>C_INCLUDE_ACP_TRANS_CHECK</spirit:name>
@@ -30394,7 +30394,7 @@
     <spirit:parameter>
       <spirit:name>PCW_QSPI_PERIPHERAL_FREQMHZ</spirit:name>
       <spirit:displayName>PCW QSPI PERIPHERAL FREQMHZ</spirit:displayName>
-      <spirit:value spirit:format="float" spirit:resolve="user" spirit:id="PARAM_VALUE.PCW_QSPI_PERIPHERAL_FREQMHZ" spirit:order="23700" spirit:minimum="10.000000" spirit:maximum="200.000000" spirit:rangeType="float">200.000000</spirit:value>
+      <spirit:value spirit:format="float" spirit:resolve="user" spirit:id="PARAM_VALUE.PCW_QSPI_PERIPHERAL_FREQMHZ" spirit:order="23700" spirit:minimum="10.000000" spirit:maximum="200.000000" spirit:rangeType="float">200</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -31736,7 +31736,7 @@
     <spirit:parameter>
       <spirit:name>PCW_GPIO_EMIO_GPIO_WIDTH</spirit:name>
       <spirit:displayName>PCW EMIO GPIO WIDTH</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.PCW_GPIO_EMIO_GPIO_WIDTH" spirit:order="48800" spirit:minimum="1" spirit:maximum="64" spirit:rangeType="long">6</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.PCW_GPIO_EMIO_GPIO_WIDTH" spirit:order="48800" spirit:minimum="1" spirit:maximum="64" spirit:rangeType="long">8</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -34752,7 +34752,7 @@
     <spirit:parameter>
       <spirit:name>PCW_GPIO_EMIO_GPIO_IO</spirit:name>
       <spirit:displayName>PCW GPIO EMIO GPIO IO</spirit:displayName>
-      <spirit:value spirit:format="string" spirit:resolve="user" spirit:id="PARAM_VALUE.PCW_GPIO_EMIO_GPIO_IO" spirit:choiceRef="choices_348" spirit:order="5600">6</spirit:value>
+      <spirit:value spirit:format="string" spirit:resolve="user" spirit:id="PARAM_VALUE.PCW_GPIO_EMIO_GPIO_IO" spirit:choiceRef="choices_348" spirit:order="5600">8</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>

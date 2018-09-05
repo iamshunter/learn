@@ -117,7 +117,7 @@
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.PCW_CRYSTAL_PERIPHERAL_FREQMHZ">33.333333</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.PCW_APU_PERIPHERAL_FREQMHZ">666.666666</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.PCW_DCI_PERIPHERAL_FREQMHZ">10.159</spirit:configurableElementValue>
-        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.PCW_QSPI_PERIPHERAL_FREQMHZ">200.000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.PCW_QSPI_PERIPHERAL_FREQMHZ">200</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.PCW_SMC_PERIPHERAL_FREQMHZ">100</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.PCW_USB0_PERIPHERAL_FREQMHZ">60</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.PCW_USB1_PERIPHERAL_FREQMHZ">60</spirit:configurableElementValue>
@@ -242,7 +242,7 @@
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.PCW_USE_EXPANDED_PS_SLCR_REGISTERS">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.PCW_USE_DAP_ROM">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.PCW_EN_EMIO_SRAM_INT">0</spirit:configurableElementValue>
-        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.PCW_GPIO_EMIO_GPIO_WIDTH">6</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.PCW_GPIO_EMIO_GPIO_WIDTH">8</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.PCW_UART0_BAUD_RATE">115200</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.PCW_UART1_BAUD_RATE">115200</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.PCW_EN_4K_TIMER">0</spirit:configurableElementValue>
@@ -496,7 +496,7 @@
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.PCW_GPIO_MIO_GPIO_ENABLE">1</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.PCW_GPIO_MIO_GPIO_IO">MIO</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.PCW_GPIO_EMIO_GPIO_ENABLE">1</spirit:configurableElementValue>
-        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.PCW_GPIO_EMIO_GPIO_IO">6</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.PCW_GPIO_EMIO_GPIO_IO">8</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.PCW_APU_CLK_RATIO_ENABLE">6:2:1</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.PCW_ENET0_PERIPHERAL_FREQMHZ">1000 Mbps</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.PCW_ENET1_PERIPHERAL_FREQMHZ">1000 Mbps</spirit:configurableElementValue>

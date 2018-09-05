@@ -47,9 +47,9 @@ module design_1
   inout FIXED_IO_ps_clk;
   inout FIXED_IO_ps_porb;
   inout FIXED_IO_ps_srstb;
-  input [5:0]emio_user_tri_i;
-  output [5:0]emio_user_tri_o;
-  output [5:0]emio_user_tri_t;
+  input [7:0]emio_user_tri_i;
+  output [7:0]emio_user_tri_o;
+  output [7:0]emio_user_tri_t;
 
   wire GND_1;
   wire [14:0]processing_system7_0_DDR_ADDR;
@@ -73,13 +73,13 @@ module design_1
   wire processing_system7_0_FIXED_IO_PS_CLK;
   wire processing_system7_0_FIXED_IO_PS_PORB;
   wire processing_system7_0_FIXED_IO_PS_SRSTB;
-  wire [5:0]processing_system7_0_GPIO_0_TRI_I;
-  wire [5:0]processing_system7_0_GPIO_0_TRI_O;
-  wire [5:0]processing_system7_0_GPIO_0_TRI_T;
+  wire [7:0]processing_system7_0_GPIO_0_TRI_I;
+  wire [7:0]processing_system7_0_GPIO_0_TRI_O;
+  wire [7:0]processing_system7_0_GPIO_0_TRI_T;
 
-  assign emio_user_tri_o[5:0] = processing_system7_0_GPIO_0_TRI_O;
-  assign emio_user_tri_t[5:0] = processing_system7_0_GPIO_0_TRI_T;
-  assign processing_system7_0_GPIO_0_TRI_I = emio_user_tri_i[5:0];
+  assign emio_user_tri_o[7:0] = processing_system7_0_GPIO_0_TRI_O;
+  assign emio_user_tri_t[7:0] = processing_system7_0_GPIO_0_TRI_T;
+  assign processing_system7_0_GPIO_0_TRI_I = emio_user_tri_i[7:0];
 GND GND
        (.G(GND_1));
 design_1_processing_system7_0_0 processing_system7_0

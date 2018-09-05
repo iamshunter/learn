@@ -1,7 +1,7 @@
 Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2013.4 (lin64) Build 353583 Mon Dec  9 17:26:26 MST 2013
-| Date             : Sat Sep  1 10:37:18 2018
+| Date             : Tue Sep  4 14:17:46 2018
 | Host             : USBCentOS running 64-bit CentOS Linux release 7.5.1804 (Core)
 | Command          : report_power -file design_1_wrapper_power_routed.rpt -pb design_1_wrapper_power_summary_routed.pb
 | Design           : design_1_wrapper
@@ -30,7 +30,7 @@ Table of Contents
 ----------
 
 +--------------------------+-------+
-| Total On-Chip Power (W)  | 1.433 |
+| Total On-Chip Power (W)  | 1.434 |
 | Dynamic (W)              | 1.310 |
 | Device Static (W)        | 0.123 |
 | Total Off-Chip Power (W) | 0.121 |
@@ -50,14 +50,14 @@ Table of Contents
 +----------------+-----------+----------+-----------+-----------------+
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
-| Slice Logic    |    <0.001 |      140 |       --- |             --- |
-|   LUT as Logic |    <0.001 |        6 |     17600 |            0.03 |
+| Slice Logic    |    <0.001 |      142 |       --- |             --- |
+|   LUT as Logic |    <0.001 |        8 |     17600 |            0.04 |
 |   Others       |     0.000 |      134 |       --- |             --- |
-| Signals        |    <0.001 |       24 |       --- |             --- |
-| I/O            |     0.001 |        6 |       100 |            6.00 |
+| Signals        |    <0.001 |       32 |       --- |             --- |
+| I/O            |     0.002 |        8 |       100 |            8.00 |
 | PS7            |     1.308 |        1 |       --- |             --- |
 | Static Power   |     0.123 |          |           |                 |
-| Total          |     1.433 |          |           |                 |
+| Total          |     1.434 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -151,6 +151,8 @@ Table of Contents
 |   emio_user_tri_iobuf_3  |    <0.001 |
 |   emio_user_tri_iobuf_4  |    <0.001 |
 |   emio_user_tri_iobuf_5  |    <0.001 |
+|   emio_user_tri_iobuf_6  |    <0.001 |
+|   emio_user_tri_iobuf_7  |    <0.001 |
 +--------------------------+-----------+
 
 

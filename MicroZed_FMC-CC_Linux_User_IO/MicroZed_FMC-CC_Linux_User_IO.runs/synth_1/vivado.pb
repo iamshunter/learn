@@ -67,7 +67,7 @@ Starting synthesis...
 xc7z0102default:defaultZ17-349
 œ
 %s*synth2Œ
-xStarting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 859.301 ; gain = 163.031
+xStarting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 859.297 ; gain = 163.031
 2default:default
 ”
 synthesizing module '%s'638*oasys2$
@@ -207,7 +207,7 @@ a
 2default:default
 ]
 %s*synth2N
-:	Parameter C_EMIO_GPIO_WIDTH bound to: 6 - type: integer 
+:	Parameter C_EMIO_GPIO_WIDTH bound to: 8 - type: integer 
 2default:default
 b
 %s*synth2S
@@ -890,7 +890,7 @@ R
 32default:default8@Z8-256
 œ
 %s*synth2Œ
-xFinished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 894.121 ; gain = 197.852
+xFinished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 894.117 ; gain = 197.852
 2default:default
 ;
 %s*synth2,
@@ -920,7 +920,7 @@ I+------+------------------+-------+---------+-------+------------------+
 \
 -Analyzing %s Unisim elements for replacement
 17*netlist2
-62default:defaultZ29-17
+82default:defaultZ29-17
 a
 2Unisim Transformation completed in %s CPU seconds
 28*netlist2
@@ -1004,16 +1004,16 @@ MSuccessfully populated the BRAM INIT strings from the following elf files: %s
 §
 !Unisim Transformation Summary:
 %s111*project2k
-W  A total of 6 instances were transformed.
-  IOBUF => IOBUF (OBUFT, IBUF): 6 instances
+W  A total of 8 instances were transformed.
+  IOBUF => IOBUF (OBUFT, IBUF): 8 instances
 2default:defaultZ1-111
 ¶
 %s*synth2¦
-‘Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1161.980 ; gain = 465.711
+‘Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1162.477 ; gain = 466.211
 2default:default
 ž
 %s*synth2Ž
-zFinished RTL Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1161.980 ; gain = 465.711
+zFinished RTL Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1162.477 ; gain = 466.211
 2default:default
 µ
 0Net %s in module/entity %s does not have driver.3422*oasys2$
@@ -1158,7 +1158,7 @@ BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
 2default:default
 ²
 %s*synth2¢
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1205.320 ; gain = 509.051
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1205.816 ; gain = 509.551
 2default:default
 B
 %s*synth23
@@ -1202,7 +1202,7 @@ B
 2default:default
 ª
 %s*synth2š
-…Finished Cross Boundary Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1205.320 ; gain = 509.051
+…Finished Cross Boundary Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1205.816 ; gain = 509.551
 2default:default
 ¢
 %s*synth2’
@@ -1224,19 +1224,19 @@ R-------------------------------------------------------------------------------
 2default:default
 Ÿ
 %s*synth2
-{Finished Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1227.348 ; gain = 531.078
+{Finished Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1227.844 ; gain = 531.578
 2default:default
 ®
 %s*synth2ž
-‰Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1380.348 ; gain = 684.078
+‰Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 1379.844 ; gain = 683.578
 2default:default
 ¡
 %s*synth2‘
-}Finished Timing Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1399.355 ; gain = 703.086
+}Finished Timing Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 1398.852 ; gain = 702.586
 2default:default
  
 %s*synth2
-|Finished Technology Mapping : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1407.363 ; gain = 711.094
+|Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 1406.859 ; gain = 710.594
 2default:default
 D
 %s*synth25
@@ -1244,7 +1244,7 @@ D
 2default:default
 š
 %s*synth2Š
-vFinished IO Insertion : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1407.363 ; gain = 711.094
+vFinished IO Insertion : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1406.859 ; gain = 710.594
 2default:default
 ;
 %s*synth2,
@@ -1273,11 +1273,11 @@ I+------+------------------+-------+---------+-------+------------------+
 2default:default
 «
 %s*synth2›
-†Finished Renaming Generated Instances : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1407.363 ; gain = 711.094
+†Finished Renaming Generated Instances : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1406.859 ; gain = 710.594
 2default:default
 ¨
 %s*synth2˜
-ƒFinished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1407.363 ; gain = 711.094
+ƒFinished Rebuilding User Hierarchy : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1406.859 ; gain = 710.594
 2default:default
 ¢
 %s*synth2’
@@ -1349,7 +1349,7 @@ Report Cell Usage:
 2default:default
 :
 %s*synth2+
-|4     |LUT1  |    31|
+|4     |LUT1  |    33|
 2default:default
 :
 %s*synth2+
@@ -1357,7 +1357,7 @@ Report Cell Usage:
 2default:default
 :
 %s*synth2+
-|6     |IOBUF |     6|
+|6     |IOBUF |     8|
 2default:default
 :
 %s*synth2+
@@ -1382,19 +1382,19 @@ V+------+-------------------------+-------------------------------------------+-
 2default:default
 y
 %s*synth2j
-V|1     |top                      |                                           |   170|
+V|1     |top                      |                                           |   174|
 2default:default
 y
 %s*synth2j
-V|2     |  design_1_i             |design_1                                   |   164|
+V|2     |  design_1_i             |design_1                                   |   166|
 2default:default
 y
 %s*synth2j
-V|3     |    processing_system7_0 |design_1_processing_system7_0_0            |   163|
+V|3     |    processing_system7_0 |design_1_processing_system7_0_0            |   165|
 2default:default
 y
 %s*synth2j
-V|4     |      inst               |processing_system7_v5_3_processing_system7 |   163|
+V|4     |      inst               |processing_system7_v5_3_processing_system7 |   165|
 2default:default
 y
 %s*synth2j
@@ -1402,7 +1402,7 @@ V+------+-------------------------+-------------------------------------------+-
 2default:default
 §
 %s*synth2—
-‚Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1407.363 ; gain = 711.094
+‚Finished Writing Synthesis Report : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1406.859 ; gain = 710.594
 2default:default
 j
 %s*synth2[
@@ -1410,12 +1410,12 @@ GSynthesis finished with 0 errors, 0 critical warnings and 19 warnings.
 2default:default
 ¥
 %s*synth2•
-€Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1407.363 ; gain = 711.094
+€Synthesis Optimization Complete : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1406.859 ; gain = 710.594
 2default:default
 \
 -Analyzing %s Unisim elements for replacement
 17*netlist2
-62default:defaultZ29-17
+82default:defaultZ29-17
 a
 2Unisim Transformation completed in %s CPU seconds
 28*netlist2
@@ -1436,8 +1436,8 @@ MSuccessfully populated the BRAM INIT strings from the following elf files: %s
 §
 !Unisim Transformation Summary:
 %s111*project2k
-W  A total of 6 instances were transformed.
-  IOBUF => IOBUF (OBUFT, IBUF): 6 instances
+W  A total of 8 instances were transformed.
+  IOBUF => IOBUF (OBUFT, IBUF): 8 instances
 2default:defaultZ1-111
 L
 Releasing license: %s
@@ -1459,17 +1459,17 @@ I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2"
 synth_design: 2default:default2
 00:00:262default:default2
-00:00:262default:default2
-1755.8482default:default2
-942.5472default:defaultZ17-268
+00:00:272default:default2
+1756.3442default:default2
+943.0472default:defaultZ17-268
 <
 %Done setting XDC timing constraints.
 35*timingZ38-35
 ‚
-vreport_utilization: Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.11 . Memory (MB): peak = 1757.863 ; gain = 2.012
+vreport_utilization: Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.10 . Memory (MB): peak = 1758.359 ; gain = 2.012
 *common
 w
 Exiting %s at %s...
 206*common2
 Vivado2default:default2,
-Sat Sep  1 10:36:51 20182default:defaultZ17-206
+Tue Sep  4 14:16:49 20182default:defaultZ17-206

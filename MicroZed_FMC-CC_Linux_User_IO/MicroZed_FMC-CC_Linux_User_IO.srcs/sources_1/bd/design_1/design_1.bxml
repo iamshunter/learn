@@ -7,7 +7,7 @@
     <Generation Name="SIMULATION" State="STALE"/>
     <FileCollection Name="SOURCES" Type="SOURCES">
       <File Name="ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xci" Type="IP">
-        <Properties IsEditable="false" IsVisible="true" Timestamp="1535823139" IsTrackable="true"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1536094934" IsTrackable="true"/>
         <Library Name="work"/>
         <UsedIn Val="SYNTHESIS"/>
         <UsedIn Val="IMPLEMENTATION"/>

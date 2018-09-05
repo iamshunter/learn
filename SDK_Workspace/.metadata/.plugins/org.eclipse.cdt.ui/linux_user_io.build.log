@@ -1,21 +1,6 @@
-11:07:23 **** Auto Build of configuration Debug for project linux_user_io ****
+14:21:29 **** Incremental Build of configuration Debug for project linux_user_io ****
 make all 
-Building file: ../src/linux_user_io.c
-Invoking: ARM Linux gcc compiler
-arm-xilinx-linux-gnueabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MMD -MP -MF"src/linux_user_io.d" -MT"src/linux_user_io.d" -o "src/linux_user_io.o" "../src/linux_user_io.c"
-Finished building: ../src/linux_user_io.c
- 
-Building target: linux_user_io.elf
-Invoking: ARM Linux gcc linker
-arm-xilinx-linux-gnueabi-gcc  -o "linux_user_io.elf"  ./src/linux_user_io.o   
-Finished building target: linux_user_io.elf
- 
-Invoking: ARM Linux Print Size
-arm-xilinx-linux-gnueabi-size linux_user_io.elf  |tee "linux_user_io.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-   5767	    336	      8	   6111	   17df	linux_user_io.elf
-Finished building: linux_user_io.elf.size
- 
+make: Nothing to be done for `all'.
 
-11:07:23 Build Finished (took 166ms)
+14:21:29 Build Finished (took 69ms)
 

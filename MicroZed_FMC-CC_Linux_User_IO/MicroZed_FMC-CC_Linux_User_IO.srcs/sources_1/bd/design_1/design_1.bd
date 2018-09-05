@@ -56,7 +56,7 @@
         <spirit:configurableElementValues>
           <spirit:configurableElementValue spirit:referenceId="bd:xciName">design_1_processing_system7_0_0</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="PCW_GPIO_EMIO_GPIO_ENABLE">1</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="PCW_GPIO_EMIO_GPIO_IO">6</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="PCW_GPIO_EMIO_GPIO_IO">8</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="preset">Microzed*</spirit:configurableElementValue>
         </spirit:configurableElementValues>
       </spirit:componentInstance>

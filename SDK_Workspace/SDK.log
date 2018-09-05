@@ -5,3 +5,22 @@
 13:04:42.660 INFO  - Bootgen command execution is done. 
 13:16:24.478 INFO  - Invoking Bootgen:  
 13:16:24.996 INFO  - Bootgen command execution is done. 
+14:21:05.194 INFO  - Processing command line option -hwspec /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1.xml. 
+14:21:06.455 INFO  - The hardware specification for project 'hw_platform_0' is different from /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1.xml. 
+14:21:06.464 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1.xml into /hw_platform_0/system.xml. 
+14:21:06.468 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1_wrapper.bit into /hw_platform_0/design_1_wrapper.bit. 
+14:21:06.885 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.c into /hw_platform_0/ps7_init.c. 
+14:21:06.886 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.h into /hw_platform_0/ps7_init.h. 
+14:21:06.890 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.html into /hw_platform_0/ps7_init.html. 
+14:21:06.890 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_summary.html into /hw_platform_0/ps7_summary.html. 
+14:21:06.891 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.tcl into /hw_platform_0/ps7_init.tcl. 
+14:21:06.982 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+14:21:10.053 INFO  - Updating hardware inferred compiler options for zynq_fsbl_0. 
+14:21:10.066 INFO  - Clearing existing target manager status. 
+14:21:12.326 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.c into /zynq_fsbl_0/src/ps7_init.c. 
+14:21:12.332 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.h into /zynq_fsbl_0/src/ps7_init.h. 
+14:21:12.339 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.html into /zynq_fsbl_0/src/ps7_init.html. 
+14:21:12.340 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_summary.html into /zynq_fsbl_0/src/ps7_summary.html. 
+14:21:12.340 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.tcl into /zynq_fsbl_0/src/ps7_init.tcl. 
+14:28:26.594 INFO  - Invoking Bootgen:  
+14:28:27.115 INFO  - Bootgen command execution is done. 

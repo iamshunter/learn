@@ -1,2 +1,2 @@
    text	   data	    bss	    dec	    hex	filename
-  70440	  11732	  73316	 155488	  25f60	zynq_fsbl_0.elf
+  70440	  11700	  73316	 155456	  25f40	zynq_fsbl_0.elf
