@@ -434,7 +434,7 @@ int main()
 		else
 		{
 			// No buttons were pressed.
-			usleep(50000);
+			usleep(100000);
 		}
 	}
 

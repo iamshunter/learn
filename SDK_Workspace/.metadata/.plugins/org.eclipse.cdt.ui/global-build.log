@@ -1,3 +1,1131 @@
 14:21:29 **** Incremental Build of configuration Debug for project linux_user_io ****
 make all 
 make: Nothing to be done for `all'.
+21:06:32 **** Auto Build of project zynq_fsbl_0_bsp ****
+make -k all 
+libgen -hw ../hw_platform_0/system.xml\
+       \
+       -pe ps7_cortexa9_0 \
+       -log libgen.log \
+       system.mss
+libgen
+Xilinx EDK 2013.4 Build EDK_2013.4.20131205
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: libgen -hw ../hw_platform_0/system.xml -pe ps7_cortexa9_0 -log
+libgen.log system.mss 
+
+
+Staging source files.
+Running DRCs.
+Running generate.
+Running post_generate.
+Running include - 'gmake -s include "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+
+Running libs - 'gmake -s libs "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+Compiling standalone
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+Compiling XilFFs Library
+Creating archive libxilffs.a
+Compiling devcfg
+Compiling dmaps
+Compiling emacps
+Compiling gpiops
+Compiling qspips
+Compiling scugic
+Compiling scutimer
+Compiling scuwdt
+Compiling sdps
+Compiling ttcps
+Compiling uartps
+Compiling usbps
+Compiling xadcps
+Compiling cpu_cortexa9
+Running execs_generate.
+Finished building libraries
+21:06:45 **** Auto Build of configuration Debug for project zynq_fsbl_0 ****
+make all 
+make: Nothing to be done for `all'.
+21:06:49 **** Auto Build of configuration Debug for project zynq_fsbl_0 ****
+make all 
+Building file: ../src/ps7_init.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../zynq_fsbl_0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ps7_init.d" -MT"src/ps7_init.d" -o "src/ps7_init.o" "../src/ps7_init.c"
+Finished building: ../src/ps7_init.c
+ 
+Building target: zynq_fsbl_0.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -L"/home/hunters/Vivado/learn/SDK_Workspace/zynq_fsbl_0/src" -Wl,-T -Wl,../src/lscript.ld -L../../zynq_fsbl_0_bsp/ps7_cortexa9_0/lib -o "zynq_fsbl_0.elf"  ./src/ddr_init.o ./src/fsbl_handoff.o ./src/fsbl_hooks.o ./src/image_mover.o ./src/main.o ./src/md5.o ./src/nand.o ./src/nor.o ./src/pcap.o ./src/ps7_init.o ./src/qspi.o ./src/rsa.o ./src/sd.o   -lrsa -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: zynq_fsbl_0.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size zynq_fsbl_0.elf  |tee "zynq_fsbl_0.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70440	  11732	  73316	 155488	  25f60	zynq_fsbl_0.elf
+Finished building: zynq_fsbl_0.elf.size
+ 
+21:50:53 **** Auto Build of project zynq_fsbl_0_bsp ****
+make -k all 
+libgen -hw ../hw_platform_0/system.xml\
+       \
+       -pe ps7_cortexa9_0 \
+       -log libgen.log \
+       system.mss
+libgen
+Xilinx EDK 2013.4 Build EDK_2013.4.20131205
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: libgen -hw ../hw_platform_0/system.xml -pe ps7_cortexa9_0 -log
+libgen.log system.mss 
+
+
+Staging source files.
+Running DRCs.
+Running generate.
+Running post_generate.
+Running include - 'gmake -s include "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+
+Running libs - 'gmake -s libs "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+Compiling standalone
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+Compiling XilFFs Library
+Creating archive libxilffs.a
+Compiling devcfg
+Compiling dmaps
+Compiling emacps
+Compiling gpiops
+Compiling qspips
+Compiling scugic
+Compiling scutimer
+Compiling scuwdt
+Compiling sdps
+Compiling ttcps
+Compiling uartps
+Compiling usbps
+Compiling xadcps
+Compiling cpu_cortexa9
+Running execs_generate.
+Finished building libraries
+21:51:06 **** Auto Build of configuration Debug for project zynq_fsbl_0 ****
+make all 
+make: Nothing to be done for `all'.
+21:51:08 **** Auto Build of configuration Debug for project zynq_fsbl_0 ****
+make all 
+Building file: ../src/ps7_init.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../zynq_fsbl_0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ps7_init.d" -MT"src/ps7_init.d" -o "src/ps7_init.o" "../src/ps7_init.c"
+Finished building: ../src/ps7_init.c
+ 
+Building target: zynq_fsbl_0.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -L"/home/hunters/Vivado/learn/SDK_Workspace/zynq_fsbl_0/src" -Wl,-T -Wl,../src/lscript.ld -L../../zynq_fsbl_0_bsp/ps7_cortexa9_0/lib -o "zynq_fsbl_0.elf"  ./src/ddr_init.o ./src/fsbl_handoff.o ./src/fsbl_hooks.o ./src/image_mover.o ./src/main.o ./src/md5.o ./src/nand.o ./src/nor.o ./src/pcap.o ./src/ps7_init.o ./src/qspi.o ./src/rsa.o ./src/sd.o   -lrsa -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: zynq_fsbl_0.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size zynq_fsbl_0.elf  |tee "zynq_fsbl_0.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70440	  11700	  73316	 155456	  25f40	zynq_fsbl_0.elf
+Finished building: zynq_fsbl_0.elf.size
+ 
+22:03:22 **** Auto Build of project zynq_fsbl_0_bsp ****
+make -k all 
+libgen -hw ../hw_platform_0/system.xml\
+       \
+       -pe ps7_cortexa9_0 \
+       -log libgen.log \
+       system.mss
+libgen
+Xilinx EDK 2013.4 Build EDK_2013.4.20131205
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: libgen -hw ../hw_platform_0/system.xml -pe ps7_cortexa9_0 -log
+libgen.log system.mss 
+
+
+Staging source files.
+Running DRCs.
+Running generate.
+Running post_generate.
+Running include - 'gmake -s include "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+
+Running libs - 'gmake -s libs "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+Compiling standalone
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+Compiling XilFFs Library
+Creating archive libxilffs.a
+Compiling devcfg
+Compiling dmaps
+Compiling emacps
+Compiling gpiops
+Compiling qspips
+Compiling scugic
+Compiling scutimer
+Compiling scuwdt
+Compiling sdps
+Compiling ttcps
+Compiling uartps
+Compiling usbps
+Compiling xadcps
+Compiling cpu_cortexa9
+Running execs_generate.
+Finished building libraries
+22:03:34 **** Auto Build of configuration Debug for project zynq_fsbl_0 ****
+make all 
+make: Nothing to be done for `all'.
+22:03:37 **** Auto Build of configuration Debug for project zynq_fsbl_0 ****
+make all 
+Building file: ../src/ps7_init.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../zynq_fsbl_0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ps7_init.d" -MT"src/ps7_init.d" -o "src/ps7_init.o" "../src/ps7_init.c"
+Finished building: ../src/ps7_init.c
+ 
+Building target: zynq_fsbl_0.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -L"/home/hunters/Vivado/learn/SDK_Workspace/zynq_fsbl_0/src" -Wl,-T -Wl,../src/lscript.ld -L../../zynq_fsbl_0_bsp/ps7_cortexa9_0/lib -o "zynq_fsbl_0.elf"  ./src/ddr_init.o ./src/fsbl_handoff.o ./src/fsbl_hooks.o ./src/image_mover.o ./src/main.o ./src/md5.o ./src/nand.o ./src/nor.o ./src/pcap.o ./src/ps7_init.o ./src/qspi.o ./src/rsa.o ./src/sd.o   -lrsa -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: zynq_fsbl_0.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size zynq_fsbl_0.elf  |tee "zynq_fsbl_0.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70440	  11700	  73316	 155456	  25f40	zynq_fsbl_0.elf
+Finished building: zynq_fsbl_0.elf.size
+ 
+22:04:18 **** Incremental Build of configuration Debug for project linux_user_io ****
+make all 
+make: Nothing to be done for `all'.
+22:04:19 **** Incremental Build of configuration Debug for project zynq_fsbl_0 ****
+make all 
+make: Nothing to be done for `all'.
+22:15:39 **** Auto Build of project zynq_fsbl_0_bsp ****
+make -k all 
+libgen -hw ../hw_platform_0/system.xml\
+       \
+       -pe ps7_cortexa9_0 \
+       -log libgen.log \
+       system.mss
+libgen
+Xilinx EDK 2013.4 Build EDK_2013.4.20131205
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: libgen -hw ../hw_platform_0/system.xml -pe ps7_cortexa9_0 -log
+libgen.log system.mss 
+
+
+Staging source files.
+Running DRCs.
+Running generate.
+Running post_generate.
+Running include - 'gmake -s include "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+
+Running libs - 'gmake -s libs "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+Compiling standalone
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+Compiling XilFFs Library
+Creating archive libxilffs.a
+Compiling devcfg
+Compiling dmaps
+Compiling emacps
+Compiling gpiops
+Compiling qspips
+Compiling scugic
+Compiling scutimer
+Compiling scuwdt
+Compiling sdps
+Compiling ttcps
+Compiling uartps
+Compiling usbps
+Compiling xadcps
+Compiling cpu_cortexa9
+Running execs_generate.
+Finished building libraries
+22:15:51 **** Auto Build of configuration Debug for project zynq_fsbl_0 ****
+make all 
+make: Nothing to be done for `all'.
+22:15:53 **** Auto Build of configuration Debug for project zynq_fsbl_0 ****
+make all 
+Building file: ../src/ps7_init.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../zynq_fsbl_0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ps7_init.d" -MT"src/ps7_init.d" -o "src/ps7_init.o" "../src/ps7_init.c"
+Finished building: ../src/ps7_init.c
+ 
+Building target: zynq_fsbl_0.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -L"/home/hunters/Vivado/learn/SDK_Workspace/zynq_fsbl_0/src" -Wl,-T -Wl,../src/lscript.ld -L../../zynq_fsbl_0_bsp/ps7_cortexa9_0/lib -o "zynq_fsbl_0.elf"  ./src/ddr_init.o ./src/fsbl_handoff.o ./src/fsbl_hooks.o ./src/image_mover.o ./src/main.o ./src/md5.o ./src/nand.o ./src/nor.o ./src/pcap.o ./src/ps7_init.o ./src/qspi.o ./src/rsa.o ./src/sd.o   -lrsa -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: zynq_fsbl_0.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size zynq_fsbl_0.elf  |tee "zynq_fsbl_0.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70440	  11700	  73316	 155456	  25f40	zynq_fsbl_0.elf
+Finished building: zynq_fsbl_0.elf.size
+ 
+22:16:19 **** Incremental Build of configuration Debug for project linux_user_io ****
+make all 
+make: Nothing to be done for `all'.
+22:16:20 **** Incremental Build of configuration Debug for project zynq_fsbl_0 ****
+make all 
+make: Nothing to be done for `all'.
+23:05:27 **** Auto Build of project zynq_fsbl_0_bsp ****
+make -k all 
+Finished building libraries
+23:05:31 **** Auto Build of configuration Debug for project zynq_fsbl_0 ****
+make all 
+Building file: ../src/ps7_init.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../zynq_fsbl_0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ps7_init.d" -MT"src/ps7_init.d" -o "src/ps7_init.o" "../src/ps7_init.c"
+Finished building: ../src/ps7_init.c
+ 
+Building target: zynq_fsbl_0.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -L"/home/hunters/Vivado/learn/SDK_Workspace/zynq_fsbl_0/src" -Wl,-T -Wl,../src/lscript.ld -L../../zynq_fsbl_0_bsp/ps7_cortexa9_0/lib -o "zynq_fsbl_0.elf"  ./src/ddr_init.o ./src/fsbl_handoff.o ./src/fsbl_hooks.o ./src/image_mover.o ./src/main.o ./src/md5.o ./src/nand.o ./src/nor.o ./src/pcap.o ./src/ps7_init.o ./src/qspi.o ./src/rsa.o ./src/sd.o   -lrsa -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: zynq_fsbl_0.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size zynq_fsbl_0.elf  |tee "zynq_fsbl_0.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70440	  11700	  73316	 155456	  25f40	zynq_fsbl_0.elf
+Finished building: zynq_fsbl_0.elf.size
+ 
+23:05:44 **** Incremental Build of configuration Debug for project linux_user_io ****
+make all 
+make: Nothing to be done for `all'.
+23:05:45 **** Incremental Build of configuration Debug for project zynq_fsbl_0 ****
+make all 
+make: Nothing to be done for `all'.
+23:06:47 **** Auto Build of configuration Debug for project linux_user_io ****
+make all 
+Building file: ../src/linux_user_io.c
+Invoking: ARM Linux gcc compiler
+arm-xilinx-linux-gnueabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MMD -MP -MF"src/linux_user_io.d" -MT"src/linux_user_io.d" -o "src/linux_user_io.o" "../src/linux_user_io.c"
+Finished building: ../src/linux_user_io.c
+ 
+Building target: linux_user_io.elf
+Invoking: ARM Linux gcc linker
+arm-xilinx-linux-gnueabi-gcc  -o "linux_user_io.elf"  ./src/linux_user_io.o   
+Finished building target: linux_user_io.elf
+ 
+Invoking: ARM Linux Print Size
+arm-xilinx-linux-gnueabi-size linux_user_io.elf  |tee "linux_user_io.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5771	    336	      8	   6115	   17e3	linux_user_io.elf
+Finished building: linux_user_io.elf.size
+ 
+23:06:51 **** Incremental Build of configuration Debug for project linux_user_io ****
+make all 
+make: Nothing to be done for `all'.
+23:06:51 **** Incremental Build of configuration Debug for project zynq_fsbl_0 ****
+make all 
+make: Nothing to be done for `all'.
+23:15:52 **** Auto Build of configuration Debug for project linux_user_io ****
+make all 
+Building file: ../src/linux_user_io.c
+Invoking: ARM Linux gcc compiler
+arm-xilinx-linux-gnueabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MMD -MP -MF"src/linux_user_io.d" -MT"src/linux_user_io.d" -o "src/linux_user_io.o" "../src/linux_user_io.c"
+Finished building: ../src/linux_user_io.c
+ 
+Building target: linux_user_io.elf
+Invoking: ARM Linux gcc linker
+arm-xilinx-linux-gnueabi-gcc  -o "linux_user_io.elf"  ./src/linux_user_io.o   
+Finished building target: linux_user_io.elf
+ 
+Invoking: ARM Linux Print Size
+arm-xilinx-linux-gnueabi-size linux_user_io.elf  |tee "linux_user_io.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5771	    336	      8	   6115	   17e3	linux_user_io.elf
+Finished building: linux_user_io.elf.size
+ 
+23:19:22 **** Auto Build of project zynq_fsbl_0_bsp ****
+make -k all 
+libgen -hw ../hw_platform_0/system.xml\
+       \
+       -pe ps7_cortexa9_0 \
+       -log libgen.log \
+       system.mss
+libgen
+Xilinx EDK 2013.4 Build EDK_2013.4.20131205
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: libgen -hw ../hw_platform_0/system.xml -pe ps7_cortexa9_0 -log
+libgen.log system.mss 
+
+
+Staging source files.
+Running DRCs.
+Running generate.
+Running post_generate.
+Running include - 'gmake -s include "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+
+Running libs - 'gmake -s libs "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+Compiling standalone
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+Compiling XilFFs Library
+Creating archive libxilffs.a
+Compiling devcfg
+Compiling dmaps
+Compiling emacps
+Compiling gpiops
+Compiling qspips
+Compiling scugic
+Compiling scutimer
+Compiling scuwdt
+Compiling sdps
+Compiling ttcps
+Compiling uartps
+Compiling usbps
+Compiling xadcps
+Compiling cpu_cortexa9
+Running execs_generate.
+Finished building libraries
+23:19:35 **** Auto Build of configuration Debug for project zynq_fsbl_0 ****
+make all 
+make: Nothing to be done for `all'.
+23:19:37 **** Auto Build of configuration Debug for project zynq_fsbl_0 ****
+make all 
+Building file: ../src/ps7_init.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../zynq_fsbl_0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ps7_init.d" -MT"src/ps7_init.d" -o "src/ps7_init.o" "../src/ps7_init.c"
+Finished building: ../src/ps7_init.c
+ 
+Building target: zynq_fsbl_0.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -L"/home/hunters/Vivado/learn/SDK_Workspace/zynq_fsbl_0/src" -Wl,-T -Wl,../src/lscript.ld -L../../zynq_fsbl_0_bsp/ps7_cortexa9_0/lib -o "zynq_fsbl_0.elf"  ./src/ddr_init.o ./src/fsbl_handoff.o ./src/fsbl_hooks.o ./src/image_mover.o ./src/main.o ./src/md5.o ./src/nand.o ./src/nor.o ./src/pcap.o ./src/ps7_init.o ./src/qspi.o ./src/rsa.o ./src/sd.o   -lrsa -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: zynq_fsbl_0.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size zynq_fsbl_0.elf  |tee "zynq_fsbl_0.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70440	  11700	  73316	 155456	  25f40	zynq_fsbl_0.elf
+Finished building: zynq_fsbl_0.elf.size
+ 
+23:19:45 **** Incremental Build of configuration Debug for project linux_user_io ****
+make all 
+make: Nothing to be done for `all'.
+23:19:45 **** Incremental Build of configuration Debug for project zynq_fsbl_0 ****
+make all 
+make: Nothing to be done for `all'.
+23:29:18 **** Auto Build of project zynq_fsbl_0_bsp ****
+make -k all 
+libgen -hw ../hw_platform_0/system.xml\
+       \
+       -pe ps7_cortexa9_0 \
+       -log libgen.log \
+       system.mss
+libgen
+Xilinx EDK 2013.4 Build EDK_2013.4.20131205
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: libgen -hw ../hw_platform_0/system.xml -pe ps7_cortexa9_0 -log
+libgen.log system.mss 
+
+
+Staging source files.
+Running DRCs.
+Running generate.
+Running post_generate.
+Running include - 'gmake -s include "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+
+Running libs - 'gmake -s libs "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+Compiling standalone
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+Compiling XilFFs Library
+Creating archive libxilffs.a
+Compiling devcfg
+Compiling dmaps
+Compiling emacps
+Compiling gpiops
+Compiling qspips
+Compiling scugic
+Compiling scutimer
+Compiling scuwdt
+Compiling sdps
+Compiling ttcps
+Compiling uartps
+Compiling usbps
+Compiling xadcps
+Compiling cpu_cortexa9
+Running execs_generate.
+Finished building libraries
+23:29:29 **** Auto Build of project zynq_fsbl_0_bsp ****
+make -k all 
+Finished building libraries
+23:29:30 **** Auto Build of configuration Debug for project zynq_fsbl_0 ****
+make all 
+make: Nothing to be done for `all'.
+23:29:33 **** Auto Build of configuration Debug for project zynq_fsbl_0 ****
+make all 
+Building file: ../src/ps7_init.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../zynq_fsbl_0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ps7_init.d" -MT"src/ps7_init.d" -o "src/ps7_init.o" "../src/ps7_init.c"
+Finished building: ../src/ps7_init.c
+ 
+Building target: zynq_fsbl_0.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -L"/home/hunters/Vivado/learn/SDK_Workspace/zynq_fsbl_0/src" -Wl,-T -Wl,../src/lscript.ld -L../../zynq_fsbl_0_bsp/ps7_cortexa9_0/lib -o "zynq_fsbl_0.elf"  ./src/ddr_init.o ./src/fsbl_handoff.o ./src/fsbl_hooks.o ./src/image_mover.o ./src/main.o ./src/md5.o ./src/nand.o ./src/nor.o ./src/pcap.o ./src/ps7_init.o ./src/qspi.o ./src/rsa.o ./src/sd.o   -lrsa -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: zynq_fsbl_0.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size zynq_fsbl_0.elf  |tee "zynq_fsbl_0.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70440	  11700	  73316	 155456	  25f40	zynq_fsbl_0.elf
+Finished building: zynq_fsbl_0.elf.size
+ 
+23:40:23 **** Auto Build of project zynq_fsbl_0_bsp ****
+make -k all 
+libgen -hw ../hw_platform_0/system.xml\
+       \
+       -pe ps7_cortexa9_0 \
+       -log libgen.log \
+       system.mss
+libgen
+Xilinx EDK 2013.4 Build EDK_2013.4.20131205
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: libgen -hw ../hw_platform_0/system.xml -pe ps7_cortexa9_0 -log
+libgen.log system.mss 
+
+
+Staging source files.
+Running DRCs.
+Running generate.
+Running post_generate.
+Running include - 'gmake -s include "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+
+Running libs - 'gmake -s libs "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+Compiling standalone
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+Compiling XilFFs Library
+Creating archive libxilffs.a
+Compiling devcfg
+Compiling dmaps
+Compiling emacps
+Compiling gpiops
+Compiling qspips
+Compiling scugic
+Compiling scutimer
+Compiling scuwdt
+Compiling sdps
+Compiling ttcps
+Compiling uartps
+Compiling usbps
+Compiling xadcps
+Compiling cpu_cortexa9
+Running execs_generate.
+Finished building libraries
+23:40:35 **** Auto Build of configuration Debug for project zynq_fsbl_0 ****
+make all 
+make: Nothing to be done for `all'.
+23:40:37 **** Auto Build of configuration Debug for project zynq_fsbl_0 ****
+make all 
+Building file: ../src/ps7_init.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../zynq_fsbl_0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ps7_init.d" -MT"src/ps7_init.d" -o "src/ps7_init.o" "../src/ps7_init.c"
+Finished building: ../src/ps7_init.c
+ 
+Building target: zynq_fsbl_0.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -L"/home/hunters/Vivado/learn/SDK_Workspace/zynq_fsbl_0/src" -Wl,-T -Wl,../src/lscript.ld -L../../zynq_fsbl_0_bsp/ps7_cortexa9_0/lib -o "zynq_fsbl_0.elf"  ./src/ddr_init.o ./src/fsbl_handoff.o ./src/fsbl_hooks.o ./src/image_mover.o ./src/main.o ./src/md5.o ./src/nand.o ./src/nor.o ./src/pcap.o ./src/ps7_init.o ./src/qspi.o ./src/rsa.o ./src/sd.o   -lrsa -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: zynq_fsbl_0.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size zynq_fsbl_0.elf  |tee "zynq_fsbl_0.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70440	  11700	  73316	 155456	  25f40	zynq_fsbl_0.elf
+Finished building: zynq_fsbl_0.elf.size
+ 
+23:46:16 **** Auto Build of project zynq_fsbl_0_bsp ****
+make -k all 
+libgen -hw ../hw_platform_0/system.xml\
+       \
+       -pe ps7_cortexa9_0 \
+       -log libgen.log \
+       system.mss
+libgen
+Xilinx EDK 2013.4 Build EDK_2013.4.20131205
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: libgen -hw ../hw_platform_0/system.xml -pe ps7_cortexa9_0 -log
+libgen.log system.mss 
+
+
+Staging source files.
+Running DRCs.
+Running generate.
+Running post_generate.
+Running include - 'gmake -s include "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+
+Running libs - 'gmake -s libs "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+Compiling standalone
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+Compiling XilFFs Library
+Creating archive libxilffs.a
+Compiling devcfg
+Compiling dmaps
+Compiling emacps
+Compiling gpiops
+Compiling qspips
+Compiling scugic
+Compiling scutimer
+Compiling scuwdt
+Compiling sdps
+Compiling ttcps
+Compiling uartps
+Compiling usbps
+Compiling xadcps
+Compiling cpu_cortexa9
+Running execs_generate.
+Finished building libraries
+23:46:29 **** Auto Build of configuration Debug for project zynq_fsbl_0 ****
+make all 
+make: Nothing to be done for `all'.
+23:46:31 **** Auto Build of configuration Debug for project zynq_fsbl_0 ****
+make all 
+Building file: ../src/ps7_init.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../zynq_fsbl_0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ps7_init.d" -MT"src/ps7_init.d" -o "src/ps7_init.o" "../src/ps7_init.c"
+Finished building: ../src/ps7_init.c
+ 
+Building target: zynq_fsbl_0.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -L"/home/hunters/Vivado/learn/SDK_Workspace/zynq_fsbl_0/src" -Wl,-T -Wl,../src/lscript.ld -L../../zynq_fsbl_0_bsp/ps7_cortexa9_0/lib -o "zynq_fsbl_0.elf"  ./src/ddr_init.o ./src/fsbl_handoff.o ./src/fsbl_hooks.o ./src/image_mover.o ./src/main.o ./src/md5.o ./src/nand.o ./src/nor.o ./src/pcap.o ./src/ps7_init.o ./src/qspi.o ./src/rsa.o ./src/sd.o   -lrsa -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: zynq_fsbl_0.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size zynq_fsbl_0.elf  |tee "zynq_fsbl_0.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70440	  11700	  73316	 155456	  25f40	zynq_fsbl_0.elf
+Finished building: zynq_fsbl_0.elf.size
+ 
+23:46:43 **** Incremental Build of configuration Debug for project linux_user_io ****
+make all 
+make: Nothing to be done for `all'.
+23:46:44 **** Incremental Build of configuration Debug for project zynq_fsbl_0 ****
+make all 
+make: Nothing to be done for `all'.
+23:53:01 **** Auto Build of project zynq_fsbl_0_bsp ****
+make -k all 
+Finished building libraries
+23:53:05 **** Auto Build of configuration Debug for project zynq_fsbl_0 ****
+make all 
+Building file: ../src/ps7_init.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../zynq_fsbl_0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ps7_init.d" -MT"src/ps7_init.d" -o "src/ps7_init.o" "../src/ps7_init.c"
+Finished building: ../src/ps7_init.c
+ 
+Building target: zynq_fsbl_0.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -L"/home/hunters/Vivado/learn/SDK_Workspace/zynq_fsbl_0/src" -Wl,-T -Wl,../src/lscript.ld -L../../zynq_fsbl_0_bsp/ps7_cortexa9_0/lib -o "zynq_fsbl_0.elf"  ./src/ddr_init.o ./src/fsbl_handoff.o ./src/fsbl_hooks.o ./src/image_mover.o ./src/main.o ./src/md5.o ./src/nand.o ./src/nor.o ./src/pcap.o ./src/ps7_init.o ./src/qspi.o ./src/rsa.o ./src/sd.o   -lrsa -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: zynq_fsbl_0.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size zynq_fsbl_0.elf  |tee "zynq_fsbl_0.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70440	  11700	  73316	 155456	  25f40	zynq_fsbl_0.elf
+Finished building: zynq_fsbl_0.elf.size
+ 
+23:53:29 **** Incremental Build of configuration Debug for project linux_user_io ****
+make all 
+make: Nothing to be done for `all'.
+23:53:30 **** Incremental Build of configuration Debug for project zynq_fsbl_0 ****
+make all 
+make: Nothing to be done for `all'.
+23:58:19 **** Auto Build of project zynq_fsbl_0_bsp ****
+make -k all 
+libgen -hw ../hw_platform_0/system.xml\
+       \
+       -pe ps7_cortexa9_0 \
+       -log libgen.log \
+       system.mss
+libgen
+Xilinx EDK 2013.4 Build EDK_2013.4.20131205
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: libgen -hw ../hw_platform_0/system.xml -pe ps7_cortexa9_0 -log
+libgen.log system.mss 
+
+
+Staging source files.
+Running DRCs.
+Running generate.
+Running post_generate.
+Running include - 'gmake -s include "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+
+Running libs - 'gmake -s libs "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+Compiling standalone
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+Compiling XilFFs Library
+Creating archive libxilffs.a
+Compiling devcfg
+Compiling dmaps
+Compiling emacps
+Compiling gpiops
+Compiling qspips
+Compiling scugic
+Compiling scutimer
+Compiling scuwdt
+Compiling sdps
+Compiling ttcps
+Compiling uartps
+Compiling usbps
+Compiling xadcps
+Compiling cpu_cortexa9
+Running execs_generate.
+Finished building libraries
+23:58:31 **** Auto Build of configuration Debug for project zynq_fsbl_0 ****
+make all 
+make: Nothing to be done for `all'.
+23:58:34 **** Auto Build of configuration Debug for project zynq_fsbl_0 ****
+make all 
+Building file: ../src/ps7_init.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../zynq_fsbl_0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ps7_init.d" -MT"src/ps7_init.d" -o "src/ps7_init.o" "../src/ps7_init.c"
+Finished building: ../src/ps7_init.c
+ 
+Building target: zynq_fsbl_0.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -L"/home/hunters/Vivado/learn/SDK_Workspace/zynq_fsbl_0/src" -Wl,-T -Wl,../src/lscript.ld -L../../zynq_fsbl_0_bsp/ps7_cortexa9_0/lib -o "zynq_fsbl_0.elf"  ./src/ddr_init.o ./src/fsbl_handoff.o ./src/fsbl_hooks.o ./src/image_mover.o ./src/main.o ./src/md5.o ./src/nand.o ./src/nor.o ./src/pcap.o ./src/ps7_init.o ./src/qspi.o ./src/rsa.o ./src/sd.o   -lrsa -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: zynq_fsbl_0.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size zynq_fsbl_0.elf  |tee "zynq_fsbl_0.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70440	  11700	  73316	 155456	  25f40	zynq_fsbl_0.elf
+Finished building: zynq_fsbl_0.elf.size
+ 
+00:03:45 **** Auto Build of project zynq_fsbl_0_bsp ****
+make -k all 
+libgen -hw ../hw_platform_0/system.xml\
+       \
+       -pe ps7_cortexa9_0 \
+       -log libgen.log \
+       system.mss
+libgen
+Xilinx EDK 2013.4 Build EDK_2013.4.20131205
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: libgen -hw ../hw_platform_0/system.xml -pe ps7_cortexa9_0 -log
+libgen.log system.mss 
+
+
+Staging source files.
+Running DRCs.
+Running generate.
+Running post_generate.
+Running include - 'gmake -s include "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+
+Running libs - 'gmake -s libs "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+Compiling standalone
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+Compiling XilFFs Library
+Creating archive libxilffs.a
+Compiling devcfg
+Compiling dmaps
+Compiling emacps
+Compiling gpiops
+Compiling qspips
+Compiling scugic
+Compiling scutimer
+Compiling scuwdt
+Compiling sdps
+Compiling ttcps
+Compiling uartps
+Compiling usbps
+Compiling xadcps
+Compiling cpu_cortexa9
+Running execs_generate.
+Finished building libraries
+00:03:57 **** Auto Build of configuration Debug for project zynq_fsbl_0 ****
+make all 
+make: Nothing to be done for `all'.
+00:03:59 **** Auto Build of configuration Debug for project zynq_fsbl_0 ****
+make all 
+Building file: ../src/ps7_init.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../zynq_fsbl_0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ps7_init.d" -MT"src/ps7_init.d" -o "src/ps7_init.o" "../src/ps7_init.c"
+Finished building: ../src/ps7_init.c
+ 
+Building target: zynq_fsbl_0.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -L"/home/hunters/Vivado/learn/SDK_Workspace/zynq_fsbl_0/src" -Wl,-T -Wl,../src/lscript.ld -L../../zynq_fsbl_0_bsp/ps7_cortexa9_0/lib -o "zynq_fsbl_0.elf"  ./src/ddr_init.o ./src/fsbl_handoff.o ./src/fsbl_hooks.o ./src/image_mover.o ./src/main.o ./src/md5.o ./src/nand.o ./src/nor.o ./src/pcap.o ./src/ps7_init.o ./src/qspi.o ./src/rsa.o ./src/sd.o   -lrsa -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: zynq_fsbl_0.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size zynq_fsbl_0.elf  |tee "zynq_fsbl_0.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70440	  11700	  73316	 155456	  25f40	zynq_fsbl_0.elf
+Finished building: zynq_fsbl_0.elf.size
+ 
+00:08:38 **** Auto Build of project zynq_fsbl_0_bsp ****
+make -k all 
+libgen -hw ../hw_platform_0/system.xml\
+       \
+       -pe ps7_cortexa9_0 \
+       -log libgen.log \
+       system.mss
+libgen
+Xilinx EDK 2013.4 Build EDK_2013.4.20131205
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: libgen -hw ../hw_platform_0/system.xml -pe ps7_cortexa9_0 -log
+libgen.log system.mss 
+
+
+Staging source files.
+Running DRCs.
+Running generate.
+Running post_generate.
+Running include - 'gmake -s include "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+
+Running libs - 'gmake -s libs "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+Compiling standalone
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+Compiling XilFFs Library
+Creating archive libxilffs.a
+Compiling devcfg
+Compiling dmaps
+Compiling emacps
+Compiling gpiops
+Compiling qspips
+Compiling scugic
+Compiling scutimer
+Compiling scuwdt
+Compiling sdps
+Compiling ttcps
+Compiling uartps
+Compiling usbps
+Compiling xadcps
+Compiling cpu_cortexa9
+Running execs_generate.
+Finished building libraries
+00:08:50 **** Auto Build of configuration Debug for project zynq_fsbl_0 ****
+make all 
+make: Nothing to be done for `all'.
+00:08:52 **** Auto Build of configuration Debug for project zynq_fsbl_0 ****
+make all 
+Building file: ../src/ps7_init.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../zynq_fsbl_0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ps7_init.d" -MT"src/ps7_init.d" -o "src/ps7_init.o" "../src/ps7_init.c"
+Finished building: ../src/ps7_init.c
+ 
+Building target: zynq_fsbl_0.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -L"/home/hunters/Vivado/learn/SDK_Workspace/zynq_fsbl_0/src" -Wl,-T -Wl,../src/lscript.ld -L../../zynq_fsbl_0_bsp/ps7_cortexa9_0/lib -o "zynq_fsbl_0.elf"  ./src/ddr_init.o ./src/fsbl_handoff.o ./src/fsbl_hooks.o ./src/image_mover.o ./src/main.o ./src/md5.o ./src/nand.o ./src/nor.o ./src/pcap.o ./src/ps7_init.o ./src/qspi.o ./src/rsa.o ./src/sd.o   -lrsa -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: zynq_fsbl_0.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size zynq_fsbl_0.elf  |tee "zynq_fsbl_0.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70440	  11700	  73316	 155456	  25f40	zynq_fsbl_0.elf
+Finished building: zynq_fsbl_0.elf.size
+ 
+00:15:03 **** Auto Build of project zynq_fsbl_0_bsp ****
+make -k all 
+libgen -hw ../hw_platform_0/system.xml\
+       \
+       -pe ps7_cortexa9_0 \
+       -log libgen.log \
+       system.mss
+libgen
+Xilinx EDK 2013.4 Build EDK_2013.4.20131205
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: libgen -hw ../hw_platform_0/system.xml -pe ps7_cortexa9_0 -log
+libgen.log system.mss 
+
+
+Staging source files.
+Running DRCs.
+Running generate.
+Running post_generate.
+Running include - 'gmake -s include "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+
+Running libs - 'gmake -s libs "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+Compiling standalone
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+Compiling XilFFs Library
+Creating archive libxilffs.a
+Compiling devcfg
+Compiling dmaps
+Compiling emacps
+Compiling gpiops
+Compiling qspips
+Compiling scugic
+Compiling scutimer
+Compiling scuwdt
+Compiling sdps
+Compiling ttcps
+Compiling uartps
+Compiling usbps
+Compiling xadcps
+Compiling cpu_cortexa9
+Running execs_generate.
+Finished building libraries
+00:15:15 **** Auto Build of configuration Debug for project zynq_fsbl_0 ****
+make all 
+make: Nothing to be done for `all'.
+00:15:18 **** Auto Build of configuration Debug for project zynq_fsbl_0 ****
+make all 
+Building file: ../src/ps7_init.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../zynq_fsbl_0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ps7_init.d" -MT"src/ps7_init.d" -o "src/ps7_init.o" "../src/ps7_init.c"
+Finished building: ../src/ps7_init.c
+ 
+Building target: zynq_fsbl_0.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -L"/home/hunters/Vivado/learn/SDK_Workspace/zynq_fsbl_0/src" -Wl,-T -Wl,../src/lscript.ld -L../../zynq_fsbl_0_bsp/ps7_cortexa9_0/lib -o "zynq_fsbl_0.elf"  ./src/ddr_init.o ./src/fsbl_handoff.o ./src/fsbl_hooks.o ./src/image_mover.o ./src/main.o ./src/md5.o ./src/nand.o ./src/nor.o ./src/pcap.o ./src/ps7_init.o ./src/qspi.o ./src/rsa.o ./src/sd.o   -lrsa -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: zynq_fsbl_0.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size zynq_fsbl_0.elf  |tee "zynq_fsbl_0.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70440	  11700	  73316	 155456	  25f40	zynq_fsbl_0.elf
+Finished building: zynq_fsbl_0.elf.size
+ 
+00:23:04 **** Auto Build of project zynq_fsbl_0_bsp ****
+make -k all 
+libgen -hw ../hw_platform_0/system.xml\
+       \
+       -pe ps7_cortexa9_0 \
+       -log libgen.log \
+       system.mss
+libgen
+Xilinx EDK 2013.4 Build EDK_2013.4.20131205
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: libgen -hw ../hw_platform_0/system.xml -pe ps7_cortexa9_0 -log
+libgen.log system.mss 
+
+
+Staging source files.
+Running DRCs.
+Running generate.
+Running post_generate.
+Running include - 'gmake -s include "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+
+Running libs - 'gmake -s libs "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+Compiling standalone
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+Compiling XilFFs Library
+Creating archive libxilffs.a
+Compiling devcfg
+Compiling dmaps
+Compiling emacps
+Compiling gpiops
+Compiling qspips
+Compiling scugic
+Compiling scutimer
+Compiling scuwdt
+Compiling sdps
+Compiling ttcps
+Compiling uartps
+Compiling usbps
+Compiling xadcps
+Compiling cpu_cortexa9
+Running execs_generate.
+Finished building libraries
+00:23:16 **** Auto Build of configuration Debug for project zynq_fsbl_0 ****
+make all 
+make: Nothing to be done for `all'.
+00:23:19 **** Auto Build of configuration Debug for project zynq_fsbl_0 ****
+make all 
+Building file: ../src/ps7_init.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../zynq_fsbl_0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ps7_init.d" -MT"src/ps7_init.d" -o "src/ps7_init.o" "../src/ps7_init.c"
+Finished building: ../src/ps7_init.c
+ 
+Building target: zynq_fsbl_0.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -L"/home/hunters/Vivado/learn/SDK_Workspace/zynq_fsbl_0/src" -Wl,-T -Wl,../src/lscript.ld -L../../zynq_fsbl_0_bsp/ps7_cortexa9_0/lib -o "zynq_fsbl_0.elf"  ./src/ddr_init.o ./src/fsbl_handoff.o ./src/fsbl_hooks.o ./src/image_mover.o ./src/main.o ./src/md5.o ./src/nand.o ./src/nor.o ./src/pcap.o ./src/ps7_init.o ./src/qspi.o ./src/rsa.o ./src/sd.o   -lrsa -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: zynq_fsbl_0.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size zynq_fsbl_0.elf  |tee "zynq_fsbl_0.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70440	  11700	  73316	 155456	  25f40	zynq_fsbl_0.elf
+Finished building: zynq_fsbl_0.elf.size
+ 
+00:27:45 **** Auto Build of project zynq_fsbl_0_bsp ****
+make -k all 
+libgen -hw ../hw_platform_0/system.xml\
+       \
+       -pe ps7_cortexa9_0 \
+       -log libgen.log \
+       system.mss
+libgen
+Xilinx EDK 2013.4 Build EDK_2013.4.20131205
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: libgen -hw ../hw_platform_0/system.xml -pe ps7_cortexa9_0 -log
+libgen.log system.mss 
+
+
+Staging source files.
+Running DRCs.
+Running generate.
+Running post_generate.
+Running include - 'gmake -s include "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+
+Running libs - 'gmake -s libs "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+Compiling standalone
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+Compiling XilFFs Library
+Creating archive libxilffs.a
+Compiling devcfg
+Compiling dmaps
+Compiling emacps
+Compiling gpiops
+Compiling qspips
+Compiling scugic
+Compiling scutimer
+Compiling scuwdt
+Compiling sdps
+Compiling ttcps
+Compiling uartps
+Compiling usbps
+Compiling xadcps
+Compiling cpu_cortexa9
+Running execs_generate.
+Finished building libraries
+00:27:58 **** Auto Build of configuration Debug for project zynq_fsbl_0 ****
+make all 
+make: Nothing to be done for `all'.
+00:28:01 **** Auto Build of configuration Debug for project zynq_fsbl_0 ****
+make all 
+Building file: ../src/ps7_init.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../zynq_fsbl_0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ps7_init.d" -MT"src/ps7_init.d" -o "src/ps7_init.o" "../src/ps7_init.c"
+Finished building: ../src/ps7_init.c
+ 
+Building target: zynq_fsbl_0.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -L"/home/hunters/Vivado/learn/SDK_Workspace/zynq_fsbl_0/src" -Wl,-T -Wl,../src/lscript.ld -L../../zynq_fsbl_0_bsp/ps7_cortexa9_0/lib -o "zynq_fsbl_0.elf"  ./src/ddr_init.o ./src/fsbl_handoff.o ./src/fsbl_hooks.o ./src/image_mover.o ./src/main.o ./src/md5.o ./src/nand.o ./src/nor.o ./src/pcap.o ./src/ps7_init.o ./src/qspi.o ./src/rsa.o ./src/sd.o   -lrsa -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: zynq_fsbl_0.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size zynq_fsbl_0.elf  |tee "zynq_fsbl_0.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70440	  11700	  73316	 155456	  25f40	zynq_fsbl_0.elf
+Finished building: zynq_fsbl_0.elf.size
+ 
+00:34:44 **** Auto Build of project zynq_fsbl_0_bsp ****
+make -k all 
+libgen -hw ../hw_platform_0/system.xml\
+       \
+       -pe ps7_cortexa9_0 \
+       -log libgen.log \
+       system.mss
+libgen
+Xilinx EDK 2013.4 Build EDK_2013.4.20131205
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: libgen -hw ../hw_platform_0/system.xml -pe ps7_cortexa9_0 -log
+libgen.log system.mss 
+
+
+Staging source files.
+Running DRCs.
+Running generate.
+Running post_generate.
+Running include - 'gmake -s include "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+
+Running libs - 'gmake -s libs "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+Compiling standalone
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+Compiling XilFFs Library
+Creating archive libxilffs.a
+Compiling devcfg
+Compiling dmaps
+Compiling emacps
+Compiling gpiops
+Compiling qspips
+Compiling scugic
+Compiling scutimer
+Compiling scuwdt
+Compiling sdps
+Compiling ttcps
+Compiling uartps
+Compiling usbps
+Compiling xadcps
+Compiling cpu_cortexa9
+Running execs_generate.
+Finished building libraries
+00:34:57 **** Auto Build of configuration Debug for project zynq_fsbl_0 ****
+make all 
+make: Nothing to be done for `all'.
+00:35:00 **** Auto Build of configuration Debug for project zynq_fsbl_0 ****
+make all 
+Building file: ../src/ps7_init.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../zynq_fsbl_0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ps7_init.d" -MT"src/ps7_init.d" -o "src/ps7_init.o" "../src/ps7_init.c"
+Finished building: ../src/ps7_init.c
+ 
+Building target: zynq_fsbl_0.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -L"/home/hunters/Vivado/learn/SDK_Workspace/zynq_fsbl_0/src" -Wl,-T -Wl,../src/lscript.ld -L../../zynq_fsbl_0_bsp/ps7_cortexa9_0/lib -o "zynq_fsbl_0.elf"  ./src/ddr_init.o ./src/fsbl_handoff.o ./src/fsbl_hooks.o ./src/image_mover.o ./src/main.o ./src/md5.o ./src/nand.o ./src/nor.o ./src/pcap.o ./src/ps7_init.o ./src/qspi.o ./src/rsa.o ./src/sd.o   -lrsa -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: zynq_fsbl_0.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size zynq_fsbl_0.elf  |tee "zynq_fsbl_0.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70440	  11700	  73316	 155456	  25f40	zynq_fsbl_0.elf
+Finished building: zynq_fsbl_0.elf.size
+ 

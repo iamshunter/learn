@@ -22,6 +22,7 @@ module design_1_wrapper
     FIXED_IO_ps_clk,
     FIXED_IO_ps_porb,
     FIXED_IO_ps_srstb,
+    TimerOut,
     emio_user_tri_io);
   inout [14:0]DDR_addr;
   inout [2:0]DDR_ba;
@@ -44,6 +45,7 @@ module design_1_wrapper
   inout FIXED_IO_ps_clk;
   inout FIXED_IO_ps_porb;
   inout FIXED_IO_ps_srstb;
+  output TimerOut;
   inout [7:0]emio_user_tri_io;
 
   wire [14:0]DDR_addr;
@@ -67,6 +69,7 @@ module design_1_wrapper
   wire FIXED_IO_ps_clk;
   wire FIXED_IO_ps_porb;
   wire FIXED_IO_ps_srstb;
+  wire TimerOut;
   wire [0:0]emio_user_tri_i_0;
   wire [1:1]emio_user_tri_i_1;
   wire [2:2]emio_user_tri_i_2;
@@ -122,6 +125,7 @@ design_1 design_1_i
         .FIXED_IO_ps_clk(FIXED_IO_ps_clk),
         .FIXED_IO_ps_porb(FIXED_IO_ps_porb),
         .FIXED_IO_ps_srstb(FIXED_IO_ps_srstb),
+        .TimerOut(TimerOut),
         .emio_user_tri_i({emio_user_tri_i_7,emio_user_tri_i_6,emio_user_tri_i_5,emio_user_tri_i_4,emio_user_tri_i_3,emio_user_tri_i_2,emio_user_tri_i_1,emio_user_tri_i_0}),
         .emio_user_tri_o({emio_user_tri_o_7,emio_user_tri_o_6,emio_user_tri_o_5,emio_user_tri_o_4,emio_user_tri_o_3,emio_user_tri_o_2,emio_user_tri_o_1,emio_user_tri_o_0}),
         .emio_user_tri_t({emio_user_tri_t_7,emio_user_tri_t_6,emio_user_tri_t_5,emio_user_tri_t_4,emio_user_tri_t_3,emio_user_tri_t_2,emio_user_tri_t_1,emio_user_tri_t_0}));

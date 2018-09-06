@@ -1,7 +1,7 @@
 Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2013.4 (lin64) Build 353583 Mon Dec  9 17:26:26 MST 2013
-| Date             : Tue Sep  4 14:17:46 2018
+| Date             : Thu Sep  6 08:39:50 2018
 | Host             : USBCentOS running 64-bit CentOS Linux release 7.5.1804 (Core)
 | Command          : report_power -file design_1_wrapper_power_routed.rpt -pb design_1_wrapper_power_summary_routed.pb
 | Design           : design_1_wrapper
@@ -31,7 +31,7 @@ Table of Contents
 
 +--------------------------+-------+
 | Total On-Chip Power (W)  | 1.434 |
-| Dynamic (W)              | 1.310 |
+| Dynamic (W)              | 1.311 |
 | Device Static (W)        | 0.123 |
 | Total Off-Chip Power (W) | 0.121 |
 | Effective TJA (C/W)      | 11.5  |
@@ -50,11 +50,14 @@ Table of Contents
 +----------------+-----------+----------+-----------+-----------------+
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
-| Slice Logic    |    <0.001 |      142 |       --- |             --- |
-|   LUT as Logic |    <0.001 |        8 |     17600 |            0.04 |
-|   Others       |     0.000 |      134 |       --- |             --- |
-| Signals        |    <0.001 |       32 |       --- |             --- |
-| I/O            |     0.002 |        8 |       100 |            8.00 |
+| Clocks         |    <0.001 |        2 |       --- |             --- |
+| Slice Logic    |    <0.001 |      215 |       --- |             --- |
+|   LUT as Logic |    <0.001 |       37 |     17600 |            0.21 |
+|   CARRY4       |    <0.001 |        7 |      4400 |            0.15 |
+|   Register     |    <0.001 |       28 |     35200 |            0.07 |
+|   Others       |     0.000 |      143 |       --- |             --- |
+| Signals        |    <0.001 |       69 |       --- |             --- |
+| I/O            |     0.002 |        9 |       100 |            9.00 |
 | PS7            |     1.308 |        1 |       --- |             --- |
 | Static Power   |     0.123 |          |           |                 |
 | Total          |     1.434 |          |           |                 |
@@ -67,7 +70,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.007 |       0.000 |      0.006 |
+| Vccint    |       1.000 |     0.007 |       0.001 |      0.006 |
 | Vccaux    |       1.800 |     0.012 |       0.000 |      0.012 |
 | Vcco33    |       3.300 |     0.000 |       0.000 |      0.000 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
@@ -127,9 +130,12 @@ Table of Contents
 2.2 Clock Constraints
 ---------------------
 
-+-------+--------+-----------------+
-| Clock | Domain | Constraint (ns) |
-+-------+--------+-----------------+
++-------------------------------------------------------------+-------------------------------------------------------------+-----------------+
+| Clock                                                       | Domain                                                      | Constraint (ns) |
++-------------------------------------------------------------+-------------------------------------------------------------+-----------------+
+| design_1_i/processing_system7_0/inst/FCLK_CLK0              | design_1_i/processing_system7_0/inst/FCLK_CLK0              |            10.0 |
+| design_1_i/processing_system7_0/inst/FCLK_CLK_unbuffered[0] | design_1_i/processing_system7_0/inst/FCLK_CLK_unbuffered[0] |            10.0 |
++-------------------------------------------------------------+-------------------------------------------------------------+-----------------+
 
 
 3. Detailed Reports
@@ -141,10 +147,11 @@ Table of Contents
 +--------------------------+-----------+
 | Name                     | Power (W) |
 +--------------------------+-----------+
-| design_1_wrapper         |     1.310 |
-|   design_1_i             |     1.308 |
-|     processing_system7_0 |     1.308 |
-|       inst               |     1.308 |
+| design_1_wrapper         |     1.311 |
+|   design_1_i             |     1.309 |
+|     fit_timer_0          |    <0.001 |
+|     processing_system7_0 |     1.309 |
+|       inst               |     1.309 |
 |   emio_user_tri_iobuf_0  |    <0.001 |
 |   emio_user_tri_iobuf_1  |    <0.001 |
 |   emio_user_tri_iobuf_2  |    <0.001 |

@@ -67,7 +67,7 @@ Starting synthesis...
 xc7z0102default:defaultZ17-349
 ú
 %s*synth2å
-xStarting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 859.297 ; gain = 163.031
+xStarting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 865.383 ; gain = 169.117
 2default:default
 î
 synthesizing module '%s'638*oasys2$
@@ -91,6 +91,422 @@ xStarting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memo
 12default:default2V
 @/home/hunters/Xilinx/Vivado/2013.4/scripts/rt/data/unisim_comp.v2default:default2
 41762default:default8@Z8-256
+ø
+synthesizing module '%s'638*oasys2*
+design_1_fit_timer_0_12default:default2√
+¨/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_0_1/synth/design_1_fit_timer_0_1.vhd2default:default2
+672default:default8@Z8-638
+V
+%s*synth2G
+3	Parameter C_FAMILY bound to: zynq - type: string 
+2default:default
+_
+%s*synth2P
+<	Parameter C_NO_CLOCKS bound to: 100368384 - type: integer 
+2default:default
+X
+%s*synth2I
+5	Parameter C_INACCURACY bound to: 0 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_EXT_RESET_HIGH bound to: 0 - type: integer 
+2default:default
+¸
+Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
+	FIT_timer2default:default2∆
+±/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_0_1/fit_timer_v2_0/hdl/vhdl/fit_timer.vhd2default:default2
+962default:default2
+U02default:default2
+	fit_timer2default:default2√
+¨/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_0_1/synth/design_1_fit_timer_0_1.vhd2default:default2
+952default:default8@Z8-3491
+∏
+synthesizing module '%s'638*oasys2
+	FIT_timer2default:default2»
+±/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_0_1/fit_timer_v2_0/hdl/vhdl/fit_timer.vhd2default:default2
+1192default:default8@Z8-638
+V
+%s*synth2G
+3	Parameter C_FAMILY bound to: zynq - type: string 
+2default:default
+_
+%s*synth2P
+<	Parameter C_NO_CLOCKS bound to: 100368384 - type: integer 
+2default:default
+X
+%s*synth2I
+5	Parameter C_INACCURACY bound to: 0 - type: integer 
+2default:default
+\
+%s*synth2M
+9	Parameter C_EXT_RESET_HIGH bound to: 0 - type: integer 
+2default:default
+Í
+,binding component instance '%s' to cell '%s'113*oasys2
+
+MUXCY_L_I12default:default2
+MUXCY_L2default:default2»
+±/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_0_1/fit_timer_v2_0/hdl/vhdl/fit_timer.vhd2default:default2
+4572default:default8@Z8-113
+Ê
+,binding component instance '%s' to cell '%s'113*oasys2
+XORCY_I12default:default2
+XORCY2default:default2»
+±/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_0_1/fit_timer_v2_0/hdl/vhdl/fit_timer.vhd2default:default2
+4652default:default8@Z8-113
+Í
+,binding component instance '%s' to cell '%s'113*oasys2
+
+MUXCY_L_I12default:default2
+MUXCY_L2default:default2»
+±/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_0_1/fit_timer_v2_0/hdl/vhdl/fit_timer.vhd2default:default2
+4572default:default8@Z8-113
+Ê
+,binding component instance '%s' to cell '%s'113*oasys2
+XORCY_I12default:default2
+XORCY2default:default2»
+±/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_0_1/fit_timer_v2_0/hdl/vhdl/fit_timer.vhd2default:default2
+4652default:default8@Z8-113
+Í
+,binding component instance '%s' to cell '%s'113*oasys2
+
+MUXCY_L_I12default:default2
+MUXCY_L2default:default2»
+±/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_0_1/fit_timer_v2_0/hdl/vhdl/fit_timer.vhd2default:default2
+4572default:default8@Z8-113
+Ê
+,binding component instance '%s' to cell '%s'113*oasys2
+XORCY_I12default:default2
+XORCY2default:default2»
+±/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_0_1/fit_timer_v2_0/hdl/vhdl/fit_timer.vhd2default:default2
+4652default:default8@Z8-113
+Í
+,binding component instance '%s' to cell '%s'113*oasys2
+
+MUXCY_L_I12default:default2
+MUXCY_L2default:default2»
+±/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_0_1/fit_timer_v2_0/hdl/vhdl/fit_timer.vhd2default:default2
+4572default:default8@Z8-113
+Ê
+,binding component instance '%s' to cell '%s'113*oasys2
+XORCY_I12default:default2
+XORCY2default:default2»
+±/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_0_1/fit_timer_v2_0/hdl/vhdl/fit_timer.vhd2default:default2
+4652default:default8@Z8-113
+Í
+,binding component instance '%s' to cell '%s'113*oasys2
+
+MUXCY_L_I12default:default2
+MUXCY_L2default:default2»
+±/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_0_1/fit_timer_v2_0/hdl/vhdl/fit_timer.vhd2default:default2
+4572default:default8@Z8-113
+Ê
+,binding component instance '%s' to cell '%s'113*oasys2
+XORCY_I12default:default2
+XORCY2default:default2»
+±/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_0_1/fit_timer_v2_0/hdl/vhdl/fit_timer.vhd2default:default2
+4652default:default8@Z8-113
+Í
+,binding component instance '%s' to cell '%s'113*oasys2
+
+MUXCY_L_I12default:default2
+MUXCY_L2default:default2»
+±/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_0_1/fit_timer_v2_0/hdl/vhdl/fit_timer.vhd2default:default2
+4572default:default8@Z8-113
+Ê
+,binding component instance '%s' to cell '%s'113*oasys2
+XORCY_I12default:default2
+XORCY2default:default2»
+±/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_0_1/fit_timer_v2_0/hdl/vhdl/fit_timer.vhd2default:default2
+4652default:default8@Z8-113
+Í
+,binding component instance '%s' to cell '%s'113*oasys2
+
+MUXCY_L_I12default:default2
+MUXCY_L2default:default2»
+±/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_0_1/fit_timer_v2_0/hdl/vhdl/fit_timer.vhd2default:default2
+4572default:default8@Z8-113
+Ê
+,binding component instance '%s' to cell '%s'113*oasys2
+XORCY_I12default:default2
+XORCY2default:default2»
+±/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_0_1/fit_timer_v2_0/hdl/vhdl/fit_timer.vhd2default:default2
+4652default:default8@Z8-113
+Í
+,binding component instance '%s' to cell '%s'113*oasys2
+
+MUXCY_L_I12default:default2
+MUXCY_L2default:default2»
+±/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_0_1/fit_timer_v2_0/hdl/vhdl/fit_timer.vhd2default:default2
+4572default:default8@Z8-113
+Ê
+,binding component instance '%s' to cell '%s'113*oasys2
+XORCY_I12default:default2
+XORCY2default:default2»
+±/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_0_1/fit_timer_v2_0/hdl/vhdl/fit_timer.vhd2default:default2
+4652default:default8@Z8-113
+Í
+,binding component instance '%s' to cell '%s'113*oasys2
+
+MUXCY_L_I12default:default2
+MUXCY_L2default:default2»
+±/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_0_1/fit_timer_v2_0/hdl/vhdl/fit_timer.vhd2default:default2
+4572default:default8@Z8-113
+Ê
+,binding component instance '%s' to cell '%s'113*oasys2
+XORCY_I12default:default2
+XORCY2default:default2»
+±/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_0_1/fit_timer_v2_0/hdl/vhdl/fit_timer.vhd2default:default2
+4652default:default8@Z8-113
+Í
+,binding component instance '%s' to cell '%s'113*oasys2
+
+MUXCY_L_I12default:default2
+MUXCY_L2default:default2»
+±/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_0_1/fit_timer_v2_0/hdl/vhdl/fit_timer.vhd2default:default2
+4572default:default8@Z8-113
+Ê
+,binding component instance '%s' to cell '%s'113*oasys2
+XORCY_I12default:default2
+XORCY2default:default2»
+±/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_0_1/fit_timer_v2_0/hdl/vhdl/fit_timer.vhd2default:default2
+4652default:default8@Z8-113
+Í
+,binding component instance '%s' to cell '%s'113*oasys2
+
+MUXCY_L_I12default:default2
+MUXCY_L2default:default2»
+±/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_0_1/fit_timer_v2_0/hdl/vhdl/fit_timer.vhd2default:default2
+4572default:default8@Z8-113
+Ê
+,binding component instance '%s' to cell '%s'113*oasys2
+XORCY_I12default:default2
+XORCY2default:default2»
+±/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_0_1/fit_timer_v2_0/hdl/vhdl/fit_timer.vhd2default:default2
+4652default:default8@Z8-113
+Í
+,binding component instance '%s' to cell '%s'113*oasys2
+
+MUXCY_L_I12default:default2
+MUXCY_L2default:default2»
+±/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_0_1/fit_timer_v2_0/hdl/vhdl/fit_timer.vhd2default:default2
+4572default:default8@Z8-113
+Ê
+,binding component instance '%s' to cell '%s'113*oasys2
+XORCY_I12default:default2
+XORCY2default:default2»
+±/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_0_1/fit_timer_v2_0/hdl/vhdl/fit_timer.vhd2default:default2
+4652default:default8@Z8-113
+Í
+,binding component instance '%s' to cell '%s'113*oasys2
+
+MUXCY_L_I12default:default2
+MUXCY_L2default:default2»
+±/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_0_1/fit_timer_v2_0/hdl/vhdl/fit_timer.vhd2default:default2
+4572default:default8@Z8-113
+Ê
+,binding component instance '%s' to cell '%s'113*oasys2
+XORCY_I12default:default2
+XORCY2default:default2»
+±/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_0_1/fit_timer_v2_0/hdl/vhdl/fit_timer.vhd2default:default2
+4652default:default8@Z8-113
+Í
+,binding component instance '%s' to cell '%s'113*oasys2
+
+MUXCY_L_I12default:default2
+MUXCY_L2default:default2»
+±/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_0_1/fit_timer_v2_0/hdl/vhdl/fit_timer.vhd2default:default2
+4572default:default8@Z8-113
+Ê
+,binding component instance '%s' to cell '%s'113*oasys2
+XORCY_I12default:default2
+XORCY2default:default2»
+±/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_0_1/fit_timer_v2_0/hdl/vhdl/fit_timer.vhd2default:default2
+4652default:default8@Z8-113
+Í
+,binding component instance '%s' to cell '%s'113*oasys2
+
+MUXCY_L_I12default:default2
+MUXCY_L2default:default2»
+±/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_0_1/fit_timer_v2_0/hdl/vhdl/fit_timer.vhd2default:default2
+4572default:default8@Z8-113
+Ê
+,binding component instance '%s' to cell '%s'113*oasys2
+XORCY_I12default:default2
+XORCY2default:default2»
+±/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_0_1/fit_timer_v2_0/hdl/vhdl/fit_timer.vhd2default:default2
+4652default:default8@Z8-113
+Í
+,binding component instance '%s' to cell '%s'113*oasys2
+
+MUXCY_L_I12default:default2
+MUXCY_L2default:default2»
+±/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_0_1/fit_timer_v2_0/hdl/vhdl/fit_timer.vhd2default:default2
+4572default:default8@Z8-113
+Ê
+,binding component instance '%s' to cell '%s'113*oasys2
+XORCY_I12default:default2
+XORCY2default:default2»
+±/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_0_1/fit_timer_v2_0/hdl/vhdl/fit_timer.vhd2default:default2
+4652default:default8@Z8-113
+Í
+,binding component instance '%s' to cell '%s'113*oasys2
+
+MUXCY_L_I12default:default2
+MUXCY_L2default:default2»
+±/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_0_1/fit_timer_v2_0/hdl/vhdl/fit_timer.vhd2default:default2
+4572default:default8@Z8-113
+Ê
+,binding component instance '%s' to cell '%s'113*oasys2
+XORCY_I12default:default2
+XORCY2default:default2»
+±/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_0_1/fit_timer_v2_0/hdl/vhdl/fit_timer.vhd2default:default2
+4652default:default8@Z8-113
+Í
+,binding component instance '%s' to cell '%s'113*oasys2
+
+MUXCY_L_I12default:default2
+MUXCY_L2default:default2»
+±/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_0_1/fit_timer_v2_0/hdl/vhdl/fit_timer.vhd2default:default2
+4572default:default8@Z8-113
+Ê
+,binding component instance '%s' to cell '%s'113*oasys2
+XORCY_I12default:default2
+XORCY2default:default2»
+±/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_0_1/fit_timer_v2_0/hdl/vhdl/fit_timer.vhd2default:default2
+4652default:default8@Z8-113
+Í
+,binding component instance '%s' to cell '%s'113*oasys2
+
+MUXCY_L_I12default:default2
+MUXCY_L2default:default2»
+±/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_0_1/fit_timer_v2_0/hdl/vhdl/fit_timer.vhd2default:default2
+4572default:default8@Z8-113
+Ê
+,binding component instance '%s' to cell '%s'113*oasys2
+XORCY_I12default:default2
+XORCY2default:default2»
+±/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_0_1/fit_timer_v2_0/hdl/vhdl/fit_timer.vhd2default:default2
+4652default:default8@Z8-113
+Í
+,binding component instance '%s' to cell '%s'113*oasys2
+
+MUXCY_L_I12default:default2
+MUXCY_L2default:default2»
+±/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_0_1/fit_timer_v2_0/hdl/vhdl/fit_timer.vhd2default:default2
+4572default:default8@Z8-113
+Ê
+,binding component instance '%s' to cell '%s'113*oasys2
+XORCY_I12default:default2
+XORCY2default:default2»
+±/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_0_1/fit_timer_v2_0/hdl/vhdl/fit_timer.vhd2default:default2
+4652default:default8@Z8-113
+Í
+,binding component instance '%s' to cell '%s'113*oasys2
+
+MUXCY_L_I12default:default2
+MUXCY_L2default:default2»
+±/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_0_1/fit_timer_v2_0/hdl/vhdl/fit_timer.vhd2default:default2
+4572default:default8@Z8-113
+Ê
+,binding component instance '%s' to cell '%s'113*oasys2
+XORCY_I12default:default2
+XORCY2default:default2»
+±/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_0_1/fit_timer_v2_0/hdl/vhdl/fit_timer.vhd2default:default2
+4652default:default8@Z8-113
+Í
+,binding component instance '%s' to cell '%s'113*oasys2
+
+MUXCY_L_I12default:default2
+MUXCY_L2default:default2»
+±/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_0_1/fit_timer_v2_0/hdl/vhdl/fit_timer.vhd2default:default2
+4572default:default8@Z8-113
+Ê
+,binding component instance '%s' to cell '%s'113*oasys2
+XORCY_I12default:default2
+XORCY2default:default2»
+±/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_0_1/fit_timer_v2_0/hdl/vhdl/fit_timer.vhd2default:default2
+4652default:default8@Z8-113
+Í
+,binding component instance '%s' to cell '%s'113*oasys2
+
+MUXCY_L_I12default:default2
+MUXCY_L2default:default2»
+±/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_0_1/fit_timer_v2_0/hdl/vhdl/fit_timer.vhd2default:default2
+4572default:default8@Z8-113
+Ê
+,binding component instance '%s' to cell '%s'113*oasys2
+XORCY_I12default:default2
+XORCY2default:default2»
+±/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_0_1/fit_timer_v2_0/hdl/vhdl/fit_timer.vhd2default:default2
+4652default:default8@Z8-113
+Í
+,binding component instance '%s' to cell '%s'113*oasys2
+
+MUXCY_L_I12default:default2
+MUXCY_L2default:default2»
+±/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_0_1/fit_timer_v2_0/hdl/vhdl/fit_timer.vhd2default:default2
+4572default:default8@Z8-113
+Ê
+,binding component instance '%s' to cell '%s'113*oasys2
+XORCY_I12default:default2
+XORCY2default:default2»
+±/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_0_1/fit_timer_v2_0/hdl/vhdl/fit_timer.vhd2default:default2
+4652default:default8@Z8-113
+Í
+,binding component instance '%s' to cell '%s'113*oasys2
+
+MUXCY_L_I12default:default2
+MUXCY_L2default:default2»
+±/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_0_1/fit_timer_v2_0/hdl/vhdl/fit_timer.vhd2default:default2
+4572default:default8@Z8-113
+Ê
+,binding component instance '%s' to cell '%s'113*oasys2
+XORCY_I12default:default2
+XORCY2default:default2»
+±/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_0_1/fit_timer_v2_0/hdl/vhdl/fit_timer.vhd2default:default2
+4652default:default8@Z8-113
+Í
+,binding component instance '%s' to cell '%s'113*oasys2
+
+MUXCY_L_I12default:default2
+MUXCY_L2default:default2»
+±/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_0_1/fit_timer_v2_0/hdl/vhdl/fit_timer.vhd2default:default2
+4572default:default8@Z8-113
+Ê
+,binding component instance '%s' to cell '%s'113*oasys2
+XORCY_I12default:default2
+XORCY2default:default2»
+±/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_0_1/fit_timer_v2_0/hdl/vhdl/fit_timer.vhd2default:default2
+4652default:default8@Z8-113
+Í
+,binding component instance '%s' to cell '%s'113*oasys2
+
+MUXCY_L_I12default:default2
+MUXCY_L2default:default2»
+±/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_0_1/fit_timer_v2_0/hdl/vhdl/fit_timer.vhd2default:default2
+4572default:default8@Z8-113
+Ê
+,binding component instance '%s' to cell '%s'113*oasys2
+XORCY_I12default:default2
+XORCY2default:default2»
+±/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_0_1/fit_timer_v2_0/hdl/vhdl/fit_timer.vhd2default:default2
+4652default:default8@Z8-113
+Û
+%done synthesizing module '%s' (%s#%s)256*oasys2
+	FIT_timer2default:default2
+22default:default2
+12default:default2»
+±/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_0_1/fit_timer_v2_0/hdl/vhdl/fit_timer.vhd2default:default2
+1192default:default8@Z8-256
+˙
+%done synthesizing module '%s' (%s#%s)256*oasys2*
+design_1_fit_timer_0_12default:default2
+32default:default2
+12default:default2√
+¨/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/ip/design_1_fit_timer_0_1/synth/design_1_fit_timer_0_1.vhd2default:default2
+672default:default8@Z8-256
 ÿ
 synthesizing module '%s'638*oasys23
 design_1_processing_system7_0_02default:default2”
@@ -269,7 +685,7 @@ V
 ˚
 %done synthesizing module '%s' (%s#%s)256*oasys2
 BUFG2default:default2
-22default:default2
+42default:default2
 12default:default2V
 @/home/hunters/Xilinx/Vivado/2013.4/scripts/rt/data/unisim_comp.v2default:default2
 6122default:default8@Z8-256
@@ -285,7 +701,7 @@ Fall outputs are unconnected for this instance and logic may be removed3605*
 ¸
 %done synthesizing module '%s' (%s#%s)256*oasys2
 BIBUF2default:default2
-32default:default2
+52default:default2
 12default:default2V
 @/home/hunters/Xilinx/Vivado/2013.4/scripts/rt/data/unisim_comp.v2default:default2
 2682default:default8@Z8-256
@@ -698,7 +1114,7 @@ Fall outputs are unconnected for this instance and logic may be removed3605*
 ¸
 %done synthesizing module '%s' (%s#%s)256*oasys2
 PS72default:default2
-42default:default2
+62default:default2
 12default:default2V
 @/home/hunters/Xilinx/Vivado/2013.4/scripts/rt/data/unisim_comp.v2default:default2
 267372default:default8@Z8-256
@@ -819,7 +1235,7 @@ Fall outputs are unconnected for this instance and logic may be removed3605*
 ∞
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *processing_system7_v5_3_processing_system72default:default2
-52default:default2
+72default:default2
 12default:default2‰
 Õ/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/hdl/verilog/processing_system7_v5_3_processing_system7.v2default:default2
 1532default:default8@Z8-256
@@ -834,7 +1250,7 @@ Ginstance '%s' of module '%s' requires %s connections, but only %s given350*
 ì
 %done synthesizing module '%s' (%s#%s)256*oasys23
 design_1_processing_system7_0_02default:default2
-62default:default2
+82default:default2
 12default:default2”
 º/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/synth/design_1_processing_system7_0_0.v2default:default2
 572default:default8@Z8-256
@@ -843,13 +1259,13 @@ Ginstance '%s' of module '%s' requires %s connections, but only %s given350*
 processing_system7_02default:default23
 design_1_processing_system7_0_02default:default2
 352default:default2
-282default:default2ó
+302default:default2ó
 Ä/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/hdl/design_1.v2default:default2
-852default:default8@Z8-350
+952default:default8@Z8-350
 ø
 %done synthesizing module '%s' (%s#%s)256*oasys2
 design_12default:default2
-72default:default2
+92default:default2
 12default:default2ó
 Ä/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/hdl/design_1.v2default:default2
 42default:default8@Z8-256
@@ -874,23 +1290,23 @@ R
 %s*synth2C
 /	Parameter DRIVE bound to: 12 - type: integer 
 2default:default
-˛
+ˇ
 %done synthesizing module '%s' (%s#%s)256*oasys2
-IOBUF2default:default2
-82default:default2
+IOBUF2default:default2
+102default:default2
 12default:default2V
 @/home/hunters/Xilinx/Vivado/2013.4/scripts/rt/data/unisim_comp.v2default:default2
 132412default:default8@Z8-256
-œ
+–
 %done synthesizing module '%s' (%s#%s)256*oasys2$
-design_1_wrapper2default:default2
-92default:default2
+design_1_wrapper2default:default2
+112default:default2
 12default:default2ü
 à/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v2default:default2
 32default:default8@Z8-256
 ú
 %s*synth2å
-xFinished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 894.117 ; gain = 197.852
+xFinished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 900.203 ; gain = 203.938
 2default:default
 ;
 %s*synth2,
@@ -917,10 +1333,10 @@ l
 %s*synth2]
 I+------+------------------+-------+---------+-------+------------------+
 2default:default
-\
+]
 -Analyzing %s Unisim elements for replacement
-17*netlist2
-82default:defaultZ29-17
+17*netlist2
+352default:defaultZ29-17
 a
 2Unisim Transformation completed in %s CPU seconds
 28*netlist2
@@ -1001,19 +1417,20 @@ r/home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_
 |
 MSuccessfully populated the BRAM INIT strings from the following elf files: %s96*memdata2
  2default:defaultZ28-144
-ß
+ 
 !Unisim Transformation Summary:
-%s111*project2k
-W  A total of 8 instances were transformed.
+%s111*project2ç
+y  A total of 35 instances were transformed.
   IOBUF => IOBUF (OBUFT, IBUF): 8 instances
+  MUXCY_L => MUXCY: 27 instances
 2default:defaultZ1-111
 ∂
 %s*synth2¶
-ëFinished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1162.477 ; gain = 466.211
+ëFinished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1168.562 ; gain = 472.297
 2default:default
 û
 %s*synth2é
-zFinished RTL Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1162.477 ; gain = 466.211
+zFinished RTL Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1168.562 ; gain = 472.297
 2default:default
 µ
 0Net %s in module/entity %s does not have driver.3422*oasys2$
@@ -1158,11 +1575,23 @@ BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
 2default:default
 ≤
 %s*synth2¢
-çFinished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1205.816 ; gain = 509.551
+çFinished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 1212.902 ; gain = 516.637
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               27 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
 2default:default
 F
 %s*synth27
@@ -1171,6 +1600,34 @@ F
 <
 %s*synth2-
 Module design_1_wrapper 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+5
+%s*synth2&
+Module FIT_timer 
+2default:default
+B
+%s*synth23
+Detailed RTL Component Info : 
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               27 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
+B
+%s*synth23
+Module design_1_fit_timer_0_1 
 2default:default
 B
 %s*synth23
@@ -1202,7 +1659,7 @@ B
 2default:default
 ™
 %s*synth2ö
-ÖFinished Cross Boundary Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1205.816 ; gain = 509.551
+ÖFinished Cross Boundary Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 1212.902 ; gain = 516.637
 2default:default
 ¢
 %s*synth2í
@@ -1224,19 +1681,19 @@ R-------------------------------------------------------------------------------
 2default:default
 ü
 %s*synth2è
-{Finished Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1227.844 ; gain = 531.578
+{Finished Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 1234.930 ; gain = 538.664
 2default:default
 Æ
 %s*synth2û
-âFinished Applying XDC Timing Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 1379.844 ; gain = 683.578
+âFinished Applying XDC Timing Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1387.930 ; gain = 691.664
 2default:default
 °
 %s*synth2ë
-}Finished Timing Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 1398.852 ; gain = 702.586
+}Finished Timing Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1406.938 ; gain = 710.672
 2default:default
 †
 %s*synth2ê
-|Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 1406.859 ; gain = 710.594
+|Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 1410.953 ; gain = 714.688
 2default:default
 D
 %s*synth25
@@ -1244,7 +1701,7 @@ D
 2default:default
 ö
 %s*synth2ä
-vFinished IO Insertion : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1406.859 ; gain = 710.594
+vFinished IO Insertion : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1410.953 ; gain = 714.688
 2default:default
 ;
 %s*synth2,
@@ -1273,11 +1730,11 @@ I+------+------------------+-------+---------+-------+------------------+
 2default:default
 ´
 %s*synth2õ
-ÜFinished Renaming Generated Instances : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1406.859 ; gain = 710.594
+ÜFinished Renaming Generated Instances : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1410.953 ; gain = 714.688
 2default:default
 ®
 %s*synth2ò
-ÉFinished Rebuilding User Hierarchy : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1406.859 ; gain = 710.594
+ÉFinished Rebuilding User Hierarchy : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1410.953 ; gain = 714.688
 2default:default
 ¢
 %s*synth2í
@@ -1323,45 +1780,69 @@ A
 
 Report Cell Usage: 
 2default:default
-:
-%s*synth2+
-+------+------+------+
+<
+%s*synth2-
++------+--------+------+
 2default:default
-:
-%s*synth2+
-|      |Cell  |Count |
+<
+%s*synth2-
+|      |Cell    |Count |
 2default:default
-:
-%s*synth2+
-+------+------+------+
+<
+%s*synth2-
++------+--------+------+
 2default:default
-:
-%s*synth2+
-|1     |BIBUF |   130|
+<
+%s*synth2-
+|1     |BIBUF   |   130|
 2default:default
-:
-%s*synth2+
-|2     |BUFG  |     1|
+<
+%s*synth2-
+|2     |BUFG    |     1|
 2default:default
-:
-%s*synth2+
-|3     |GND   |     1|
+<
+%s*synth2-
+|3     |GND     |     1|
 2default:default
-:
-%s*synth2+
-|4     |LUT1  |    33|
+<
+%s*synth2-
+|4     |LUT1    |    61|
 2default:default
-:
-%s*synth2+
-|5     |PS7   |     1|
+<
+%s*synth2-
+|5     |LUT2    |     1|
 2default:default
-:
-%s*synth2+
-|6     |IOBUF |     8|
+<
+%s*synth2-
+|6     |MUXCY_L |    27|
 2default:default
-:
-%s*synth2+
-+------+------+------+
+<
+%s*synth2-
+|7     |PS7     |     1|
+2default:default
+<
+%s*synth2-
+|8     |XORCY   |    27|
+2default:default
+<
+%s*synth2-
+|9     |FDRE    |     4|
+2default:default
+<
+%s*synth2-
+|10    |FDSE    |    24|
+2default:default
+<
+%s*synth2-
+|11    |IOBUF   |     8|
+2default:default
+<
+%s*synth2-
+|12    |OBUF    |     1|
+2default:default
+<
+%s*synth2-
++------+--------+------+
 2default:default
 <
 %s*synth2-
@@ -1382,19 +1863,23 @@ V+------+-------------------------+-------------------------------------------+-
 2default:default
 y
 %s*synth2j
-V|1     |top                      |                                           |   174|
+V|1     |top                      |                                           |   286|
 2default:default
 y
 %s*synth2j
-V|2     |  design_1_i             |design_1                                   |   166|
+V|2     |  design_1_i             |design_1                                   |   277|
 2default:default
 y
 %s*synth2j
-V|3     |    processing_system7_0 |design_1_processing_system7_0_0            |   165|
+V|3     |    fit_timer_0          |design_1_fit_timer_0_1                     |   111|
 2default:default
 y
 %s*synth2j
-V|4     |      inst               |processing_system7_v5_3_processing_system7 |   165|
+V|4     |    processing_system7_0 |design_1_processing_system7_0_0            |   165|
+2default:default
+y
+%s*synth2j
+V|5     |      inst               |processing_system7_v5_3_processing_system7 |   165|
 2default:default
 y
 %s*synth2j
@@ -1402,7 +1887,7 @@ V+------+-------------------------+-------------------------------------------+-
 2default:default
 ß
 %s*synth2ó
-ÇFinished Writing Synthesis Report : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1406.859 ; gain = 710.594
+ÇFinished Writing Synthesis Report : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1410.953 ; gain = 714.688
 2default:default
 j
 %s*synth2[
@@ -1410,12 +1895,12 @@ GSynthesis finished with 0 errors, 0 critical warnings and 19 warnings.
 2default:default
 •
 %s*synth2ï
-ÄSynthesis Optimization Complete : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1406.859 ; gain = 710.594
+ÄSynthesis Optimization Complete : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1410.953 ; gain = 714.688
 2default:default
-\
+]
 -Analyzing %s Unisim elements for replacement
-17*netlist2
-82default:defaultZ29-17
+17*netlist2
+352default:defaultZ29-17
 a
 2Unisim Transformation completed in %s CPU seconds
 28*netlist2
@@ -1433,10 +1918,11 @@ C
 |
 MSuccessfully populated the BRAM INIT strings from the following elf files: %s96*memdata2
  2default:defaultZ28-144
-ß
+–
 !Unisim Transformation Summary:
-%s111*project2k
-W  A total of 8 instances were transformed.
+%s111*project2ì
+  A total of 15 instances were transformed.
+  (MUXCY,XORCY) => CARRY4: 7 instances
   IOBUF => IOBUF (OBUFT, IBUF): 8 instances
 2default:defaultZ1-111
 L
@@ -1446,7 +1932,7 @@ L
 ø
 G%s Infos, %s Warnings, %s Critical Warnings and %s Errors encountered.
 28*	vivadotcl2
-342default:default2
+932default:default2
 1402default:default2
 02default:default2
 02default:defaultZ4-41
@@ -1459,17 +1945,17 @@ I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2"
 synth_design: 2default:default2
 00:00:262default:default2
-00:00:272default:default2
-1756.3442default:default2
-943.0472default:defaultZ17-268
+00:00:262default:default2
+1762.4382default:default2
+948.0512default:defaultZ17-268
 <
 %Done setting XDC timing constraints.
 35*timingZ38-35
 Ç
-vreport_utilization: Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.10 . Memory (MB): peak = 1758.359 ; gain = 2.012
+vreport_utilization: Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.09 . Memory (MB): peak = 1764.453 ; gain = 2.012
 *common
 w
 Exiting %s at %s...
 206*common2
 Vivado2default:default2,
-Tue Sep  4 14:16:49 20182default:defaultZ17-206
+Thu Sep  6 08:39:23 20182default:defaultZ17-206

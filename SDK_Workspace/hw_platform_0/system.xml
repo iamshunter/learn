@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Tue Sep  4 14:20:49 2018" VIVADOVERSION="2013.4">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Thu Sep  6 00:34:23 2018" VIVADOVERSION="2013.4">
 
   <SYSTEMINFO ARCH="zynq" BOARD="em.avnet.com:zynq:microzed:e" DEVICE="7z010" NAME="design_1_imp" PACKAGE="clg400" SPEEDGRADE="-1"/>
 
@@ -28,9 +28,42 @@
     <PORT DIR="I" NAME="emio_user_tri_i" SIGIS="undef"/>
     <PORT DIR="O" NAME="emio_user_tri_o" SIGIS="undef"/>
     <PORT DIR="O" NAME="emio_user_tri_t" SIGIS="undef"/>
+    <PORT DIR="O" NAME="TimerOut" SENSITIVITY="LEVEL_HIGH" SIGIS="INTERRUPT" SIGNAME="fit_timer_0_Interrupt">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="fit_timer_0" PORT="Interrupt"/>
+      </CONNECTIONS>
+    </PORT>
   </EXTERNALPORTS>
 
   <MODULES>
+    <MODULE FULLNAME="/fit_timer_0" HWVERSION="2.0" INSTANCE="fit_timer_0" IPTYPE="PERIPHERAL" MODCLASS="PERIPHERAL" MODTYPE="fit_timer" VLNV="xilinx.com:ip:fit_timer:2.0">
+      <PARAMETERS>
+        <PARAMETER NAME="C_FAMILY" VALUE="zynq"/>
+        <PARAMETER NAME="C_NO_CLOCKS" VALUE="100368384"/>
+        <PARAMETER NAME="C_INACCURACY" VALUE="0"/>
+        <PARAMETER NAME="C_EXT_RESET_HIGH" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_fit_timer_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="Clk" SIGIS="clk" SIGNAME="processing_system7_0_FCLK_CLK0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="processing_system7_0" PORT="FCLK_CLK0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="Rst" SIGIS="rst" SIGNAME="processing_system7_0_FCLK_RESET0_N">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="processing_system7_0" PORT="FCLK_RESET0_N"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Interrupt" SENSITIVITY="LEVEL_HIGH" SIGIS="INTERRUPT" SIGNAME="fit_timer_0_Interrupt">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="TimerOut"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
     <MODULE HWVERSION="1.00.a" INSTANCE="ps7_uart_1" IPTYPE="PERIPHERAL" MODCLASS="PERIPHERAL" MODTYPE="ps7_uart">
       <PARAMETERS>
         <PARAMETER NAME="C_HAS_MODEM" VALUE="0"/>

@@ -278,3 +278,5 @@ set_property src_info {type:XDC file:2 line:55 export:INPUT save:INPUT read:READ
 set_property PACKAGE_PIN L17 [get_ports {emio_user_tri_io[6]}]
 set_property src_info {type:XDC file:2 line:56 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN L16 [get_ports {emio_user_tri_io[7]}]
+set_property src_info {type:XDC file:2 line:62 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN G14 [get_ports TimerOut]

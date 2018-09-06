@@ -1,7 +1,7 @@
 Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------
 | Tool Version : Vivado v.2013.4 (lin64) Build 353583 Mon Dec  9 17:26:26 MST 2013
-| Date         : Tue Sep  4 14:17:37 2018
+| Date         : Thu Sep  6 08:39:42 2018
 | Host         : USBCentOS running 64-bit CentOS Linux release 7.5.1804 (Core)
 | Command      : report_io -file design_1_wrapper_io_placed.rpt
 | Design       : design_1_wrapper
@@ -22,7 +22,7 @@ Table of Contents
 +---------------+
 | Total User IO |
 +---------------+
-|           138 |
+|           139 |
 +---------------+
 
 
@@ -165,7 +165,7 @@ Table of Contents
 | G11        |                     |           | VCCBRAM                 |           |                   |                |            |           |             |           |         |            |                        |                  |
 | G12        |                     |           | GND                     |           |                   |                |            |           |             |           |         |            |                        |                  |
 | G13        |                     |           | VCCINT                  |           |                   |                |            |           |             |           |         |            |                        |                  |
-| G14        |                     | IOB33     | IO_0_35                 | UNUSED    |                   |             35 |            |           |             |           |         |            |                        |                  |
+| G14        | TimerOut            | IOB33     | IO_0_35                 | OUTPUT    | LVCMOS18*         |             35 |         12 |      SLOW |             |           |         | FIXED      | NONE                   | NONE             |
 | G15        |                     | IOB33S    | IO_L19N_T3_VREF_35      | UNUSED    |                   |             35 |            |           |             |           |         |            |                        |                  |
 | G16        |                     |           | GND                     |           |                   |                |            |           |             |           |         |            |                        |                  |
 | G17        |                     | IOB33M    | IO_L16P_T2_35           | UNUSED    |                   |             35 |            |           |             |           |         |            |                        |                  |

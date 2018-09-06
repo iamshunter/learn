@@ -24,3 +24,345 @@
 14:21:12.340 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.tcl into /zynq_fsbl_0/src/ps7_init.tcl. 
 14:28:26.594 INFO  - Invoking Bootgen:  
 14:28:27.115 INFO  - Bootgen command execution is done. 
+21:03:50.269 ERROR - Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+21:06:30.792 INFO  - Processing command line option -hwspec /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1.xml. 
+21:06:31.957 INFO  - The hardware specification for project 'hw_platform_0' is different from /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1.xml. 
+21:06:31.970 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1.xml into /hw_platform_0/system.xml. 
+21:06:31.974 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1_wrapper.bit into /hw_platform_0/design_1_wrapper.bit. 
+21:06:32.065 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.c into /hw_platform_0/ps7_init.c. 
+21:06:32.065 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.h into /hw_platform_0/ps7_init.h. 
+21:06:32.069 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.html into /hw_platform_0/ps7_init.html. 
+21:06:32.070 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_summary.html into /hw_platform_0/ps7_summary.html. 
+21:06:32.071 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.tcl into /hw_platform_0/ps7_init.tcl. 
+21:06:32.166 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+21:06:46.735 INFO  - Updating hardware inferred compiler options for zynq_fsbl_0. 
+21:06:46.755 INFO  - Clearing existing target manager status. 
+21:06:48.946 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.c into /zynq_fsbl_0/src/ps7_init.c. 
+21:06:48.948 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.h into /zynq_fsbl_0/src/ps7_init.h. 
+21:06:48.957 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.html into /zynq_fsbl_0/src/ps7_init.html. 
+21:06:48.958 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_summary.html into /zynq_fsbl_0/src/ps7_summary.html. 
+21:06:48.959 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.tcl into /zynq_fsbl_0/src/ps7_init.tcl. 
+21:11:02.116 INFO  - Invoking Bootgen:  
+21:11:02.635 INFO  - Bootgen command execution is done. 
+21:40:47.778 INFO  - Invoking Bootgen:  
+21:40:48.292 INFO  - Bootgen command execution is done. 
+21:49:40.665 INFO  - Project hw_platform_0's source hardware specification located at /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+21:50:53.142 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1.xml into /hw_platform_0/system.xml. 
+21:50:53.145 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1_wrapper.bit into /hw_platform_0/design_1_wrapper.bit. 
+21:50:53.192 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.c into /hw_platform_0/ps7_init.c. 
+21:50:53.193 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.h into /hw_platform_0/ps7_init.h. 
+21:50:53.198 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.html into /hw_platform_0/ps7_init.html. 
+21:50:53.198 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_summary.html into /hw_platform_0/ps7_summary.html. 
+21:50:53.199 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.tcl into /hw_platform_0/ps7_init.tcl. 
+21:50:53.290 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+21:51:07.054 INFO  - Updating hardware inferred compiler options for zynq_fsbl_0. 
+21:51:07.095 INFO  - Clearing existing target manager status. 
+21:51:07.107 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.c into /zynq_fsbl_0/src/ps7_init.c. 
+21:51:07.109 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.h into /zynq_fsbl_0/src/ps7_init.h. 
+21:51:07.117 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.html into /zynq_fsbl_0/src/ps7_init.html. 
+21:51:07.119 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_summary.html into /zynq_fsbl_0/src/ps7_summary.html. 
+21:51:07.120 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.tcl into /zynq_fsbl_0/src/ps7_init.tcl. 
+21:53:07.970 INFO  - Invoking Bootgen:  
+21:53:08.482 INFO  - Bootgen command execution is done. 
+21:58:53.365 ERROR - Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+22:03:21.178 INFO  - Processing command line option -hwspec /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1.xml. 
+22:03:22.237 INFO  - The hardware specification for project 'hw_platform_0' is different from /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1.xml. 
+22:03:22.247 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1.xml into /hw_platform_0/system.xml. 
+22:03:22.252 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1_wrapper.bit into /hw_platform_0/design_1_wrapper.bit. 
+22:03:22.308 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.c into /hw_platform_0/ps7_init.c. 
+22:03:22.309 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.h into /hw_platform_0/ps7_init.h. 
+22:03:22.314 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.html into /hw_platform_0/ps7_init.html. 
+22:03:22.315 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_summary.html into /hw_platform_0/ps7_summary.html. 
+22:03:22.316 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.tcl into /hw_platform_0/ps7_init.tcl. 
+22:03:22.430 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+22:03:35.623 INFO  - Updating hardware inferred compiler options for zynq_fsbl_0. 
+22:03:35.642 INFO  - Clearing existing target manager status. 
+22:03:36.807 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.c into /zynq_fsbl_0/src/ps7_init.c. 
+22:03:36.809 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.h into /zynq_fsbl_0/src/ps7_init.h. 
+22:03:36.824 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.html into /zynq_fsbl_0/src/ps7_init.html. 
+22:03:36.825 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_summary.html into /zynq_fsbl_0/src/ps7_summary.html. 
+22:03:36.826 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.tcl into /zynq_fsbl_0/src/ps7_init.tcl. 
+22:06:38.675 INFO  - Invoking Bootgen:  
+22:06:39.192 INFO  - Bootgen command execution is done. 
+22:09:43.210 ERROR - Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+22:15:37.001 INFO  - Processing command line option -hwspec /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1.xml. 
+22:15:38.018 INFO  - The hardware specification for project 'hw_platform_0' is different from /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1.xml. 
+22:15:38.031 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1.xml into /hw_platform_0/system.xml. 
+22:15:38.034 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1_wrapper.bit into /hw_platform_0/design_1_wrapper.bit. 
+22:15:38.106 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.c into /hw_platform_0/ps7_init.c. 
+22:15:38.106 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.h into /hw_platform_0/ps7_init.h. 
+22:15:38.110 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.html into /hw_platform_0/ps7_init.html. 
+22:15:38.111 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_summary.html into /hw_platform_0/ps7_summary.html. 
+22:15:38.112 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.tcl into /hw_platform_0/ps7_init.tcl. 
+22:15:38.221 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+22:15:51.147 INFO  - Updating hardware inferred compiler options for zynq_fsbl_0. 
+22:15:51.163 INFO  - Clearing existing target manager status. 
+22:15:53.326 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.c into /zynq_fsbl_0/src/ps7_init.c. 
+22:15:53.327 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.h into /zynq_fsbl_0/src/ps7_init.h. 
+22:15:53.336 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.html into /zynq_fsbl_0/src/ps7_init.html. 
+22:15:53.338 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_summary.html into /zynq_fsbl_0/src/ps7_summary.html. 
+22:15:53.339 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.tcl into /zynq_fsbl_0/src/ps7_init.tcl. 
+22:16:05.515 ERROR - Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+22:20:28.210 INFO  - Invoking Bootgen:  
+22:20:28.732 INFO  - Bootgen command execution is done. 
+23:05:26.305 INFO  - Processing command line option -hwspec /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1.xml. 
+23:05:27.392 INFO  - The hardware specification for project 'hw_platform_0' is different from /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1.xml. 
+23:05:27.412 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1.xml into /hw_platform_0/system.xml. 
+23:05:27.417 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1_wrapper.bit into /hw_platform_0/design_1_wrapper.bit. 
+23:05:27.498 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.c into /hw_platform_0/ps7_init.c. 
+23:05:27.499 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.h into /hw_platform_0/ps7_init.h. 
+23:05:27.503 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.html into /hw_platform_0/ps7_init.html. 
+23:05:27.503 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_summary.html into /hw_platform_0/ps7_summary.html. 
+23:05:27.504 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.tcl into /hw_platform_0/ps7_init.tcl. 
+23:05:27.608 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+23:05:29.378 INFO  - Updating hardware inferred compiler options for zynq_fsbl_0. 
+23:05:29.380 INFO  - Clearing existing target manager status. 
+23:05:31.540 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.c into /zynq_fsbl_0/src/ps7_init.c. 
+23:05:31.542 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.h into /zynq_fsbl_0/src/ps7_init.h. 
+23:05:31.562 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.html into /zynq_fsbl_0/src/ps7_init.html. 
+23:05:31.563 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_summary.html into /zynq_fsbl_0/src/ps7_summary.html. 
+23:05:31.564 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.tcl into /zynq_fsbl_0/src/ps7_init.tcl. 
+23:09:47.046 INFO  - Invoking Bootgen:  
+23:09:47.560 INFO  - Bootgen command execution is done. 
+23:16:04.047 ERROR - Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+23:19:21.508 INFO  - Processing command line option -hwspec /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1.xml. 
+23:19:22.476 INFO  - The hardware specification for project 'hw_platform_0' is different from /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1.xml. 
+23:19:22.487 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1.xml into /hw_platform_0/system.xml. 
+23:19:22.491 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1_wrapper.bit into /hw_platform_0/design_1_wrapper.bit. 
+23:19:22.768 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.c into /hw_platform_0/ps7_init.c. 
+23:19:22.769 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.h into /hw_platform_0/ps7_init.h. 
+23:19:22.773 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.html into /hw_platform_0/ps7_init.html. 
+23:19:22.774 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_summary.html into /hw_platform_0/ps7_summary.html. 
+23:19:22.775 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.tcl into /hw_platform_0/ps7_init.tcl. 
+23:19:22.884 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+23:19:36.309 INFO  - Updating hardware inferred compiler options for zynq_fsbl_0. 
+23:19:36.325 INFO  - Clearing existing target manager status. 
+23:19:37.497 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.c into /zynq_fsbl_0/src/ps7_init.c. 
+23:19:37.499 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.h into /zynq_fsbl_0/src/ps7_init.h. 
+23:19:37.507 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.html into /zynq_fsbl_0/src/ps7_init.html. 
+23:19:37.510 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_summary.html into /zynq_fsbl_0/src/ps7_summary.html. 
+23:19:37.512 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.tcl into /zynq_fsbl_0/src/ps7_init.tcl. 
+23:21:10.366 INFO  - Invoking Bootgen:  
+23:21:10.879 INFO  - Bootgen command execution is done. 
+23:25:44.681 ERROR - Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+23:29:16.723 INFO  - Processing command line option -hwspec /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1.xml. 
+23:29:17.826 INFO  - The hardware specification for project 'hw_platform_0' is different from /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1.xml. 
+23:29:17.834 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1.xml into /hw_platform_0/system.xml. 
+23:29:17.838 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1_wrapper.bit into /hw_platform_0/design_1_wrapper.bit. 
+23:29:29.664 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.c into /hw_platform_0/ps7_init.c. 
+23:29:29.665 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.h into /hw_platform_0/ps7_init.h. 
+23:29:29.671 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.html into /hw_platform_0/ps7_init.html. 
+23:29:29.671 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_summary.html into /hw_platform_0/ps7_summary.html. 
+23:29:29.672 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.tcl into /hw_platform_0/ps7_init.tcl. 
+23:29:29.798 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+23:29:31.631 INFO  - Updating hardware inferred compiler options for zynq_fsbl_0. 
+23:29:31.644 INFO  - Clearing existing target manager status. 
+23:29:32.802 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.c into /zynq_fsbl_0/src/ps7_init.c. 
+23:29:32.807 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.h into /zynq_fsbl_0/src/ps7_init.h. 
+23:29:32.817 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.html into /zynq_fsbl_0/src/ps7_init.html. 
+23:29:32.821 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_summary.html into /zynq_fsbl_0/src/ps7_summary.html. 
+23:29:32.823 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.tcl into /zynq_fsbl_0/src/ps7_init.tcl. 
+23:30:36.569 INFO  - Invoking Bootgen:  
+23:30:37.092 INFO  - Bootgen command execution is done. 
+23:33:27.322 ERROR - Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+23:40:20.749 INFO  - Processing command line option -hwspec /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1.xml. 
+23:40:21.860 INFO  - The hardware specification for project 'hw_platform_0' is different from /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1.xml. 
+23:40:21.872 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1.xml into /hw_platform_0/system.xml. 
+23:40:21.876 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1_wrapper.bit into /hw_platform_0/design_1_wrapper.bit. 
+23:40:21.947 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.c into /hw_platform_0/ps7_init.c. 
+23:40:21.948 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.h into /hw_platform_0/ps7_init.h. 
+23:40:21.952 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.html into /hw_platform_0/ps7_init.html. 
+23:40:21.952 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_summary.html into /hw_platform_0/ps7_summary.html. 
+23:40:21.953 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.tcl into /hw_platform_0/ps7_init.tcl. 
+23:40:22.235 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+23:40:35.275 INFO  - Updating hardware inferred compiler options for zynq_fsbl_0. 
+23:40:35.290 INFO  - Clearing existing target manager status. 
+23:40:37.452 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.c into /zynq_fsbl_0/src/ps7_init.c. 
+23:40:37.454 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.h into /zynq_fsbl_0/src/ps7_init.h. 
+23:40:37.465 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.html into /zynq_fsbl_0/src/ps7_init.html. 
+23:40:37.466 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_summary.html into /zynq_fsbl_0/src/ps7_summary.html. 
+23:40:37.467 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.tcl into /zynq_fsbl_0/src/ps7_init.tcl. 
+23:41:24.175 INFO  - Invoking Bootgen:  
+23:41:24.688 INFO  - Bootgen command execution is done. 
+23:42:58.917 ERROR - Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+23:46:14.523 INFO  - Processing command line option -hwspec /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1.xml. 
+23:46:15.671 INFO  - The hardware specification for project 'hw_platform_0' is different from /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1.xml. 
+23:46:15.684 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1.xml into /hw_platform_0/system.xml. 
+23:46:15.688 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1_wrapper.bit into /hw_platform_0/design_1_wrapper.bit. 
+23:46:15.746 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.c into /hw_platform_0/ps7_init.c. 
+23:46:15.747 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.h into /hw_platform_0/ps7_init.h. 
+23:46:15.751 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.html into /hw_platform_0/ps7_init.html. 
+23:46:15.752 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_summary.html into /hw_platform_0/ps7_summary.html. 
+23:46:15.752 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.tcl into /hw_platform_0/ps7_init.tcl. 
+23:46:15.843 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+23:46:29.680 INFO  - Updating hardware inferred compiler options for zynq_fsbl_0. 
+23:46:29.696 INFO  - Clearing existing target manager status. 
+23:46:30.866 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.c into /zynq_fsbl_0/src/ps7_init.c. 
+23:46:30.870 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.h into /zynq_fsbl_0/src/ps7_init.h. 
+23:46:30.879 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.html into /zynq_fsbl_0/src/ps7_init.html. 
+23:46:30.882 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_summary.html into /zynq_fsbl_0/src/ps7_summary.html. 
+23:46:30.885 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.tcl into /zynq_fsbl_0/src/ps7_init.tcl. 
+23:48:11.615 INFO  - Invoking Bootgen:  
+23:48:12.135 INFO  - Bootgen command execution is done. 
+23:50:17.220 ERROR - Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+23:52:59.832 INFO  - Processing command line option -hwspec /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1.xml. 
+23:53:01.249 INFO  - The hardware specification for project 'hw_platform_0' is different from /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1.xml. 
+23:53:01.260 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1.xml into /hw_platform_0/system.xml. 
+23:53:01.264 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1_wrapper.bit into /hw_platform_0/design_1_wrapper.bit. 
+23:53:01.330 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.c into /hw_platform_0/ps7_init.c. 
+23:53:01.331 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.h into /hw_platform_0/ps7_init.h. 
+23:53:01.335 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.html into /hw_platform_0/ps7_init.html. 
+23:53:01.335 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_summary.html into /hw_platform_0/ps7_summary.html. 
+23:53:01.336 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.tcl into /hw_platform_0/ps7_init.tcl. 
+23:53:01.615 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+23:53:03.452 INFO  - Updating hardware inferred compiler options for zynq_fsbl_0. 
+23:53:03.454 INFO  - Clearing existing target manager status. 
+23:53:05.629 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.c into /zynq_fsbl_0/src/ps7_init.c. 
+23:53:05.630 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.h into /zynq_fsbl_0/src/ps7_init.h. 
+23:53:05.641 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.html into /zynq_fsbl_0/src/ps7_init.html. 
+23:53:05.642 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_summary.html into /zynq_fsbl_0/src/ps7_summary.html. 
+23:53:05.644 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.tcl into /zynq_fsbl_0/src/ps7_init.tcl. 
+23:54:25.166 INFO  - Invoking Bootgen:  
+23:54:25.680 INFO  - Bootgen command execution is done. 
+23:55:30.044 ERROR - Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+23:58:17.766 INFO  - Processing command line option -hwspec /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1.xml. 
+23:58:19.001 INFO  - The hardware specification for project 'hw_platform_0' is different from /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1.xml. 
+23:58:19.009 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1.xml into /hw_platform_0/system.xml. 
+23:58:19.014 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1_wrapper.bit into /hw_platform_0/design_1_wrapper.bit. 
+23:58:19.082 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.c into /hw_platform_0/ps7_init.c. 
+23:58:19.082 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.h into /hw_platform_0/ps7_init.h. 
+23:58:19.086 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.html into /hw_platform_0/ps7_init.html. 
+23:58:19.087 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_summary.html into /hw_platform_0/ps7_summary.html. 
+23:58:19.088 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.tcl into /hw_platform_0/ps7_init.tcl. 
+23:58:19.203 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+23:58:32.441 INFO  - Updating hardware inferred compiler options for zynq_fsbl_0. 
+23:58:32.457 INFO  - Clearing existing target manager status. 
+23:58:34.619 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.c into /zynq_fsbl_0/src/ps7_init.c. 
+23:58:34.621 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.h into /zynq_fsbl_0/src/ps7_init.h. 
+23:58:34.630 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.html into /zynq_fsbl_0/src/ps7_init.html. 
+23:58:34.631 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_summary.html into /zynq_fsbl_0/src/ps7_summary.html. 
+23:58:34.632 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.tcl into /zynq_fsbl_0/src/ps7_init.tcl. 
+23:59:24.563 INFO  - Invoking Bootgen:  
+23:59:25.077 INFO  - Bootgen command execution is done. 
+23:59:55.490 ERROR - Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+00:03:44.068 INFO  - Processing command line option -hwspec /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1.xml. 
+00:03:45.078 INFO  - The hardware specification for project 'hw_platform_0' is different from /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1.xml. 
+00:03:45.089 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1.xml into /hw_platform_0/system.xml. 
+00:03:45.094 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1_wrapper.bit into /hw_platform_0/design_1_wrapper.bit. 
+00:03:45.170 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.c into /hw_platform_0/ps7_init.c. 
+00:03:45.171 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.h into /hw_platform_0/ps7_init.h. 
+00:03:45.175 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.html into /hw_platform_0/ps7_init.html. 
+00:03:45.176 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_summary.html into /hw_platform_0/ps7_summary.html. 
+00:03:45.176 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.tcl into /hw_platform_0/ps7_init.tcl. 
+00:03:45.268 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+00:03:58.516 INFO  - Updating hardware inferred compiler options for zynq_fsbl_0. 
+00:03:58.531 INFO  - Clearing existing target manager status. 
+00:03:59.690 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.c into /zynq_fsbl_0/src/ps7_init.c. 
+00:03:59.693 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.h into /zynq_fsbl_0/src/ps7_init.h. 
+00:03:59.700 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.html into /zynq_fsbl_0/src/ps7_init.html. 
+00:03:59.702 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_summary.html into /zynq_fsbl_0/src/ps7_summary.html. 
+00:03:59.704 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.tcl into /zynq_fsbl_0/src/ps7_init.tcl. 
+00:04:35.887 INFO  - Invoking Bootgen:  
+00:04:36.405 INFO  - Bootgen command execution is done. 
+00:06:10.531 ERROR - Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+00:08:36.716 INFO  - Processing command line option -hwspec /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1.xml. 
+00:08:37.745 INFO  - The hardware specification for project 'hw_platform_0' is different from /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1.xml. 
+00:08:37.756 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1.xml into /hw_platform_0/system.xml. 
+00:08:37.760 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1_wrapper.bit into /hw_platform_0/design_1_wrapper.bit. 
+00:08:37.819 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.c into /hw_platform_0/ps7_init.c. 
+00:08:37.820 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.h into /hw_platform_0/ps7_init.h. 
+00:08:37.823 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.html into /hw_platform_0/ps7_init.html. 
+00:08:37.824 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_summary.html into /hw_platform_0/ps7_summary.html. 
+00:08:37.825 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.tcl into /hw_platform_0/ps7_init.tcl. 
+00:08:37.974 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+00:08:51.192 INFO  - Updating hardware inferred compiler options for zynq_fsbl_0. 
+00:08:51.208 INFO  - Clearing existing target manager status. 
+00:08:52.370 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.c into /zynq_fsbl_0/src/ps7_init.c. 
+00:08:52.371 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.h into /zynq_fsbl_0/src/ps7_init.h. 
+00:08:52.381 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.html into /zynq_fsbl_0/src/ps7_init.html. 
+00:08:52.382 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_summary.html into /zynq_fsbl_0/src/ps7_summary.html. 
+00:08:52.383 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.tcl into /zynq_fsbl_0/src/ps7_init.tcl. 
+00:09:41.396 INFO  - Invoking Bootgen:  
+00:09:41.914 INFO  - Bootgen command execution is done. 
+00:10:43.953 ERROR - Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+00:15:01.587 INFO  - Processing command line option -hwspec /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1.xml. 
+00:15:02.662 INFO  - The hardware specification for project 'hw_platform_0' is different from /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1.xml. 
+00:15:02.677 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1.xml into /hw_platform_0/system.xml. 
+00:15:02.683 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1_wrapper.bit into /hw_platform_0/design_1_wrapper.bit. 
+00:15:02.754 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.c into /hw_platform_0/ps7_init.c. 
+00:15:02.755 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.h into /hw_platform_0/ps7_init.h. 
+00:15:02.760 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.html into /hw_platform_0/ps7_init.html. 
+00:15:02.760 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_summary.html into /hw_platform_0/ps7_summary.html. 
+00:15:02.761 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.tcl into /hw_platform_0/ps7_init.tcl. 
+00:15:03.037 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+00:15:16.055 INFO  - Updating hardware inferred compiler options for zynq_fsbl_0. 
+00:15:16.066 INFO  - Clearing existing target manager status. 
+00:15:18.227 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.c into /zynq_fsbl_0/src/ps7_init.c. 
+00:15:18.229 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.h into /zynq_fsbl_0/src/ps7_init.h. 
+00:15:18.237 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.html into /zynq_fsbl_0/src/ps7_init.html. 
+00:15:18.239 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_summary.html into /zynq_fsbl_0/src/ps7_summary.html. 
+00:15:18.242 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.tcl into /zynq_fsbl_0/src/ps7_init.tcl. 
+00:17:10.549 INFO  - Invoking Bootgen:  
+00:17:11.061 INFO  - Bootgen command execution is done. 
+00:20:06.812 ERROR - Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+00:23:02.692 INFO  - Processing command line option -hwspec /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1.xml. 
+00:23:03.755 INFO  - The hardware specification for project 'hw_platform_0' is different from /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1.xml. 
+00:23:03.765 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1.xml into /hw_platform_0/system.xml. 
+00:23:03.769 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1_wrapper.bit into /hw_platform_0/design_1_wrapper.bit. 
+00:23:03.850 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.c into /hw_platform_0/ps7_init.c. 
+00:23:03.851 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.h into /hw_platform_0/ps7_init.h. 
+00:23:03.858 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.html into /hw_platform_0/ps7_init.html. 
+00:23:03.859 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_summary.html into /hw_platform_0/ps7_summary.html. 
+00:23:03.859 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.tcl into /hw_platform_0/ps7_init.tcl. 
+00:23:04.122 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+00:23:17.572 INFO  - Updating hardware inferred compiler options for zynq_fsbl_0. 
+00:23:17.585 INFO  - Clearing existing target manager status. 
+00:23:19.749 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.c into /zynq_fsbl_0/src/ps7_init.c. 
+00:23:19.753 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.h into /zynq_fsbl_0/src/ps7_init.h. 
+00:23:19.768 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.html into /zynq_fsbl_0/src/ps7_init.html. 
+00:23:19.770 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_summary.html into /zynq_fsbl_0/src/ps7_summary.html. 
+00:23:19.771 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.tcl into /zynq_fsbl_0/src/ps7_init.tcl. 
+00:24:02.993 INFO  - Invoking Bootgen:  
+00:24:03.511 INFO  - Bootgen command execution is done. 
+00:25:18.553 ERROR - Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+00:27:44.204 INFO  - Processing command line option -hwspec /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1.xml. 
+00:27:45.624 INFO  - The hardware specification for project 'hw_platform_0' is different from /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1.xml. 
+00:27:45.632 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1.xml into /hw_platform_0/system.xml. 
+00:27:45.636 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1_wrapper.bit into /hw_platform_0/design_1_wrapper.bit. 
+00:27:45.706 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.c into /hw_platform_0/ps7_init.c. 
+00:27:45.706 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.h into /hw_platform_0/ps7_init.h. 
+00:27:45.712 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.html into /hw_platform_0/ps7_init.html. 
+00:27:45.713 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_summary.html into /hw_platform_0/ps7_summary.html. 
+00:27:45.714 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.tcl into /hw_platform_0/ps7_init.tcl. 
+00:27:45.996 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+00:27:59.719 INFO  - Updating hardware inferred compiler options for zynq_fsbl_0. 
+00:27:59.733 INFO  - Clearing existing target manager status. 
+00:28:00.894 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.c into /zynq_fsbl_0/src/ps7_init.c. 
+00:28:00.896 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.h into /zynq_fsbl_0/src/ps7_init.h. 
+00:28:00.906 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.html into /zynq_fsbl_0/src/ps7_init.html. 
+00:28:00.908 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_summary.html into /zynq_fsbl_0/src/ps7_summary.html. 
+00:28:00.910 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.tcl into /zynq_fsbl_0/src/ps7_init.tcl. 
+00:28:30.490 INFO  - Invoking Bootgen:  
+00:28:31.002 INFO  - Bootgen command execution is done. 
+00:31:39.276 ERROR - Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+00:34:43.676 INFO  - Processing command line option -hwspec /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1.xml. 
+00:34:44.618 INFO  - The hardware specification for project 'hw_platform_0' is different from /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1.xml. 
+00:34:44.626 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1.xml into /hw_platform_0/system.xml. 
+00:34:44.630 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/design_1_wrapper.bit into /hw_platform_0/design_1_wrapper.bit. 
+00:34:44.688 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.c into /hw_platform_0/ps7_init.c. 
+00:34:44.688 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.h into /hw_platform_0/ps7_init.h. 
+00:34:44.692 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.html into /hw_platform_0/ps7_init.html. 
+00:34:44.693 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_summary.html into /hw_platform_0/ps7_summary.html. 
+00:34:44.693 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw/ps7_init.tcl into /hw_platform_0/ps7_init.tcl. 
+00:34:44.791 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+00:34:58.244 INFO  - Updating hardware inferred compiler options for zynq_fsbl_0. 
+00:34:58.256 INFO  - Clearing existing target manager status. 
+00:35:00.413 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.c into /zynq_fsbl_0/src/ps7_init.c. 
+00:35:00.416 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.h into /zynq_fsbl_0/src/ps7_init.h. 
+00:35:00.430 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.html into /zynq_fsbl_0/src/ps7_init.html. 
+00:35:00.431 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_summary.html into /zynq_fsbl_0/src/ps7_summary.html. 
+00:35:00.435 INFO  - Copied contents of /home/hunters/Vivado/learn/SDK_Workspace/hw_platform_0/ps7_init.tcl into /zynq_fsbl_0/src/ps7_init.tcl. 
+00:35:36.190 INFO  - Invoking Bootgen:  
+00:35:36.704 INFO  - Bootgen command execution is done. 
+08:40:16.431 ERROR - Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
