@@ -56,7 +56,7 @@ QWebTalk data collection is enabled (User setting is ON. Install Setting is ON.)
 †'%s' has been successfully sent to Xilinx on %s. For additional details about this file, please refer to the Webtalk help file at %s.
 186*common2“
 /home/hunters/Vivado/learn/MicroZed_FMC-CC_Linux_User_IO/MicroZed_FMC-CC_Linux_User_IO.runs/impl_1/usage_statistics_webtalk.xml2default:default2,
-Thu Sep  6 08:39:59 20182default:default2T
+Mon Sep 10 14:23:26 20182default:default2T
 @/home/hunters/Xilinx/Vivado/2013.4/doc/webtalk_introduction.html2default:defaultZ17-186
 Q
 Releasing license: %s
@@ -66,10 +66,10 @@ Q
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2%
 write_bitstream: 2default:default2
-00:00:082default:default2
 00:00:092default:default2
-1990.5702default:default2
-275.0392default:defaultZ17-268
+00:00:092default:default2
+1992.5782default:default2
+277.0392default:defaultZ17-268
 
 
 End Record
