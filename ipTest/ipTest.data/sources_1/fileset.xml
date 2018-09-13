@@ -11,10 +11,14 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
+    <File Path="$PPRDIR/component.xml">
+      <FileInfo SFType="IPXACT"/>
+    </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
       <Option Name="TopModule" Val="pulseOut"/>
       <Option Name="TopAutoSet" Val="TRUE"/>
+      <Option Name="IPRepoPath" Val="/home/hunters/Vivado/learn/ipTest"/>
     </Config>
   </FileSet>
 </DARoots>
